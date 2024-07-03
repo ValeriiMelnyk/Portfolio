@@ -1,0 +1,52 @@
+{
+    "exercise": {
+        "id": "SpatialMemory",
+        "settingsClassName": "\"\"",
+        "exerciseConfig": {
+            "modelClassName": "\"\"",
+            "controllerClassName": "\"\"",
+            "viewClassName": "\"\"",
+            "assetClassName": "\"\"",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "enforce timeout": true,
+            "backgroundStartColour": [
+                166,
+                42,
+                92
+            ],
+            "backgroundEndColour": [
+                108,
+                49,
+                74
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 1,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": 60,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 1,
+                    "memorizeTimeout": 20,
+                    "cols": 2,
+                    "rows": 2,
+                    "numStimuli": 4,
+                    "usedStimuli": 2
+                },
+                {
+                    "timeout": 180,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 2,
+                    "memorizeTimeout": 20,
+                    "cols": 3,
+                    "rows": 3,
+                    "numStimuli": 18,
+                    "usedStimuli": 9
+                }
+            ]
+        }
+    }
+}

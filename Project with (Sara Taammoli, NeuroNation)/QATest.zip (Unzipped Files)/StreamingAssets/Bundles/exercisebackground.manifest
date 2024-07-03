@@ -1,0 +1,58 @@
+ManifestFileVersion: 0
+CRC: 2754431012
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 006b9a618d00959f79f782784c5b442e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5dd113033c39d3213496c4f78abc2207
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a75f4bb1288af446a916a1df16814d47, type: 3}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 60631bf3d18894939b68e71f715d8dfb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e301a46acac49fb83a0d24f47fef8e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0306ea1e927e549f68ba4aafc8dafa07, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/Modules/ExerciseBackground/ExerciseBackground.unity
+Dependencies: []

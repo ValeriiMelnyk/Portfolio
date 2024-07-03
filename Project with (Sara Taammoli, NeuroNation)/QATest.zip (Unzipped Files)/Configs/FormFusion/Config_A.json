@@ -1,0 +1,93 @@
+{
+    "exercise": {
+        "id": "FormFusion",
+        "settingsClassName": "FormFusion.Model.FormFusionConfiguration,FormFusion",
+        "exerciseConfig": {
+            "modelClassName": "FormFusion.Model.FormFusionModel,FormFusion",
+            "controllerClassName": "FormFusion.Controller.FormFusionController,FormFusion",
+            "viewClassName": "FormFusion.View.FormFusionView,FormFusion",
+            "assetClassName": "FormFusion.Assets.FormFusionAssets,FormFusion",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "backgroundStartColour": [
+                251,
+                206,
+                90
+            ],
+            "backgroundEndColour": [
+                254,
+                172,
+                0
+            ],
+            "backgroundVectorAngle": 225,
+            "enforceTimeout": true,
+            "maxD": 4,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 1,
+                    "score": 1,
+                    "memorizeTimeout": 0,
+                    "equationSize": 2,
+                    "minusProbability": 0,
+                    "patternSize": 2,
+                    "warmUpRounds": 2,
+                    "badRunsForTutorial": 2
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 2,
+                    "score": 2,
+                    "memorizeTimeout": 0,
+                    "equationSize": 2,
+                    "minusProbability": 0.5,
+                    "patternSize": 2,
+                    "warmUpRounds": 0,
+                    "badRunsForTutorial": 2
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 2,
+                    "score": 3,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 2,
+                    "warmUpRounds": 0,
+                    "badRunsForTutorial": 2
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 2,
+                    "score": 4,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 3,
+                    "warmUpRounds": 0,
+                    "badRunsForTutorial": 2
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 5,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 0,
+                    "badRunsForTutorial": 2
+                }
+            ]
+        }
+    }
+}

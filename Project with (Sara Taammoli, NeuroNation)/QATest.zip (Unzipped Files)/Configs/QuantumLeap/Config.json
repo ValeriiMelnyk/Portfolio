@@ -1,0 +1,1452 @@
+{
+    "exercise": {
+        "id": "QuantumLeap",
+        "settingsClassName": "QuantumLeap.Model.QuantumLeapConfiguration,QuantumLeap",
+        "exerciseConfig": {
+            "modelClassName": "QuantumLeap.Model.QuantumLeapModel,QuantumLeap",
+            "controllerClassName": "QuantumLeap.Controller.QuantumLeapController,QuantumLeap",
+            "viewClassName": "QuantumLeap.View.QuantumLeapView,QuantumLeap",
+            "assetClassName": "QuantumLeap.Assets.QuantumLeapAssets,QuantumLeap",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "enforceTimeout": false,
+            "backgroundStartColour": [
+                98,
+                105,
+                209
+            ],
+            "backgroundEndColour": [
+                72,
+                172,
+                238
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 2,
+            "maxD": 16,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 100
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [],
+                            "score": 0,
+                            "lifetime": -1,
+                            "prob": 100
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 1,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 0,
+                    "stimuliAnimationSpeed": 0
+                },
+                {
+                    "timeout": 6.85,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 100
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [],
+                            "score": 0,
+                            "lifetime": -1,
+                            "prob": 100
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 3,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 0,
+                    "stimuliAnimationSpeed": 0
+                },
+                {
+                    "timeout": 6.5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 75
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 25
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": -1,
+                            "prob": 100
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 3,
+                            "congruence": 1,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 20
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 0,
+                    "stimuliAnimationSpeed": 0
+                },
+                {
+                    "timeout": 6.15,
+                    "goodRuns": 10,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 72
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 22
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 6
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 3.6,
+                            "prob": 100
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 3,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 20
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 0,
+                    "stimuliAnimationSpeed": 0.3
+                },
+                {
+                    "timeout": 5.8,
+                    "goodRuns": 12,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 72
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 21
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 7
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 3.5,
+                            "prob": 100
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 3,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 20
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 0,
+                    "stimuliAnimationSpeed": 0.4
+                },
+                {
+                    "timeout": 5.45,
+                    "goodRuns": 14,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 71
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 21
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 8
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 3.4,
+                            "prob": 100
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 3,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 20
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 23,
+                    "stimuliAnimationSpeed": 0.5
+                },
+                {
+                    "timeout": 5.1,
+                    "goodRuns": 14,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 71
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 20
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 9
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 3.3,
+                            "prob": 100
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 3,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 3,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 1,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 20
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 23,
+                    "stimuliAnimationSpeed": 0.6
+                },
+                {
+                    "timeout": 4.75,
+                    "goodRuns": 16,
+                    "badRuns": 3,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 70
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 20
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 10
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 3.2,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.9,
+                            "prob": 33
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 4,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 4,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 1,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 20
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 24,
+                    "stimuliAnimationSpeed": 0.7
+                },
+                {
+                    "timeout": 4.4,
+                    "goodRuns": 16,
+                    "badRuns": 3,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 70
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 19
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 11
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 3.1,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.8,
+                            "prob": 33
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 5,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 0,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 5,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 1,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 21
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 25,
+                    "stimuliAnimationSpeed": 0.8
+                },
+                {
+                    "timeout": 4.05,
+                    "goodRuns": 18,
+                    "badRuns": 3,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 69
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 19
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 12
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 3,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.7,
+                            "prob": 33
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 5,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 1,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 5,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 2,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 21
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 26,
+                    "stimuliAnimationSpeed": 0.9
+                },
+                {
+                    "timeout": 3.7,
+                    "goodRuns": 18,
+                    "badRuns": 3,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 69
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 19
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 12
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 2.9,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.6,
+                            "prob": 33
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 6,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 1,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 6,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 2,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 21
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 27,
+                    "stimuliAnimationSpeed": 1
+                },
+                {
+                    "timeout": 3.35,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 69
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 18
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 13
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 2.8,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.5,
+                            "prob": 33
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 6,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 2,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 6,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 3,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 22
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 28,
+                    "stimuliAnimationSpeed": 1.1
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 69
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 18
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 13
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 2.7,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.4,
+                            "prob": 33
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 2,
+                            "prob": 90
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 3,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 22
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 29,
+                    "stimuliAnimationSpeed": 1.2
+                },
+                {
+                    "timeout": 2.65,
+                    "goodRuns": 22,
+                    "badRuns": 3,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 68
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 18
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 14
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 2.6,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.3,
+                            "prob": 33
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "score": 10,
+                            "lifetime": 2,
+                            "prob": 25
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 3,
+                            "prob": 80
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 4,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 22
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 30,
+                    "stimuliAnimationSpeed": 1.3
+                },
+                {
+                    "timeout": 2.3,
+                    "goodRuns": 22,
+                    "badRuns": 3,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 68
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 18
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 14
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 2.5,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.2,
+                            "prob": 33
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "score": 10,
+                            "lifetime": 1.9,
+                            "prob": 25
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 4,
+                            "prob": 70
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 5,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 23
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 31,
+                    "stimuliAnimationSpeed": 1.4
+                },
+                {
+                    "timeout": 1.95,
+                    "goodRuns": 23,
+                    "badRuns": 3,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 68
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 17
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 15
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 2.4,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2.1,
+                            "prob": 33
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "score": 10,
+                            "lifetime": 1.8,
+                            "prob": 25
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 5,
+                            "prob": 60
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 6,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 23
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 32,
+                    "stimuliAnimationSpeed": 1.5
+                },
+                {
+                    "timeout": 1.6,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 17,
+                    "multiplierSteps": [
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "platforms": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": 0,
+                            "prob": 68
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "jumpPower": 2,
+                            "collectiblePossible": true,
+                            "goodBadRun": 0,
+                            "prob": 17
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "jumpPower": 1,
+                            "collectiblePossible": false,
+                            "goodBadRun": -1,
+                            "prob": 15
+                        }
+                    ],
+                    "collectibles": [
+                        {
+                            "views": [
+                                1
+                            ],
+                            "score": 1,
+                            "lifetime": 2.3,
+                            "prob": 100
+                        },
+                        {
+                            "views": [
+                                2
+                            ],
+                            "score": 5,
+                            "lifetime": 2,
+                            "prob": 33
+                        },
+                        {
+                            "views": [
+                                3
+                            ],
+                            "score": 10,
+                            "lifetime": 1.7,
+                            "prob": 25
+                        }
+                    ],
+                    "stimulis": [
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": true,
+                            "disturbingColors": 6,
+                            "prob": 50
+                        },
+                        {
+                            "directions": [
+                                "leftUp",
+                                "rightUp",
+                                "up"
+                            ],
+                            "count": 7,
+                            "congruence": 2,
+                            "positionRandom": false,
+                            "disturbingColors": 7,
+                            "prob": 100
+                        },
+                        {
+                            "directions": [
+                                "none"
+                            ],
+                            "count": 0,
+                            "congruence": 0,
+                            "positionRandom": false,
+                            "disturbingColors": 0,
+                            "prob": 23
+                        }
+                    ],
+                    "avatarColorSwitchingChance": 33,
+                    "stimuliAnimationSpeed": 1.6
+                }
+            ]
+        }
+    }
+}

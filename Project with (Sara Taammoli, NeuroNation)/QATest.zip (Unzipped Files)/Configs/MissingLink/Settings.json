@@ -1,0 +1,50 @@
+{
+	"id": "MissingLink",
+	"localization": {
+		"MissingLink_instruction_text": "Merge the shapes left to the equal sign while looking out for any plus or minus signs. Tap on the resulting shape at the bottom."
+	},
+	"configs": {
+		"config":"Configs/MissingLink/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "MissingLink",
+			"path": "Bundles/missinglink",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "MissingLink",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

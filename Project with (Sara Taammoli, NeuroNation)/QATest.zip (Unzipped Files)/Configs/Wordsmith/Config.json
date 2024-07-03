@@ -1,0 +1,674 @@
+{
+    "exercise": {
+        "id": "Wordsmith",
+        "settingsClassName": "Wordsmith.Model.WordsmithConfiguration,Wordsmith",
+        "exerciseConfig": {
+            "modelClassName": "Wordsmith.Model.WordsmithModel,Wordsmith",
+            "controllerClassName": "Wordsmith.Controller.WordsmithController,Wordsmith",
+            "viewClassName": "Wordsmith.View.WordsmithView,Wordsmith",
+            "assetClassName": "Wordsmith.Assets.WordsmithAssets,Wordsmith",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "enforceTimeout": false,
+            "backgroundStartColour": [
+                193,
+                216,
+                195
+            ],
+            "backgroundEndColour": [
+                99,
+                134,
+                125
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1.7,
+            "maxD": 25,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "wordsLengths": [
+                        3
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        }
+                    }
+                },
+                {
+                    "timeout": 23.7000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        4
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        }
+                    }
+                },
+                {
+                    "timeout": 23.5000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        4
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3
+                        }
+                    }
+                },
+                {
+                    "timeout": 23.3000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        4
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 5.4
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3
+                        }
+                    }
+                },
+                {
+                    "timeout": 23.1000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        5
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 5.4
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.9
+                        }
+                    }
+                },
+                {
+                    "timeout": 22.9000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        5
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 5.2
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.9
+                        }
+                    }
+                },
+                {
+                    "timeout": 22.7000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        6
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 5.2
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.9
+                        }
+                    }
+                },
+                {
+                    "timeout": 22.5000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        6
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 5
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.8
+                        }
+                    }
+                },
+                {
+                    "timeout": 22.3000000000001,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        7
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 5
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.8
+                        }
+                    }
+                },
+                {
+                    "timeout": 22.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        7
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.8
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.7
+                        }
+                    }
+                },
+                {
+                    "timeout": 21.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        4,
+                        4
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.8
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.7
+                        }
+                    }
+                },
+                {
+                    "timeout": 21.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        4,
+                        4
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.6
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.6
+                        }
+                    }
+                },
+                {
+                    "timeout": 21.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        5,
+                        4
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.6
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.6
+                        }
+                    }
+                },
+                {
+                    "timeout": 21.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        4,
+                        5
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.4
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.5
+                        }
+                    }
+                },
+                {
+                    "timeout": 21.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        4,
+                        6
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.4
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.4
+                        }
+                    }
+                },
+                {
+                    "timeout": 20.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        6,
+                        4
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 4.2
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.4
+                        }
+                    }
+                },
+                {
+                    "timeout": 20.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        5,
+                        5
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 4.2
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.4
+                        }
+                    }
+                },
+                {
+                    "timeout": 20.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        5,
+                        5
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 4
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.3
+                        }
+                    }
+                },
+                {
+                    "timeout": 20.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        6,
+                        5
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 4
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": 20.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 20,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        5,
+                        6
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 3.8
+                        },
+                        "symbol": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": 19.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        6,
+                        6
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 3.8
+                        },
+                        "symbol": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": 19.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 22,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        6,
+                        6
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 3.6
+                        },
+                        "symbol": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": 19.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 23,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        6,
+                        7
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 3.6
+                        },
+                        "symbol": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": 19.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 24,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        7,
+                        6
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 3.4
+                        },
+                        "symbol": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": 19.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 25,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        7,
+                        7
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 3.4
+                        },
+                        "symbol": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": 18.9,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 26,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "wordsLengths": [
+                        7,
+                        7
+                    ],
+                    "letters": {
+                        "normal": {},
+                        "memory": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 3.2
+                        },
+                        "symbol": {
+                            "min": 3,
+                            "max": 3,
+                            "seconds": 0
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

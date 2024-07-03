@@ -1,0 +1,248 @@
+{
+    "exercise": {
+        "id": "AlphabetSoup",
+        "settingsClassName": "AlphabetSoup.Model.AlphabetSoupConfiguration,AlphabetSoup",
+        "exerciseConfig": {
+            "modelClassName": "AlphabetSoup.Model.AlphabetSoupModel,AlphabetSoup",
+            "controllerClassName": "AlphabetSoup.Controller.AlphabetSoupController,AlphabetSoup",
+            "viewClassName": "AlphabetSoup.View.AlphabetSoupView,AlphabetSoup",
+            "assetClassName": "AlphabetSoup.Assets.AlphabetSoupAssets,AlphabetSoup",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "backgroundStartColour": [
+                255,
+                126,
+                95
+            ],
+            "backgroundEndColour": [
+                216,
+                93,
+                64
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 8,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 5,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "itemSize": 1,
+                    "itemsOnRound": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "itemMoving": {
+                        "minDelay": 2,
+                        "maxDelay": 3,
+                        "amount": 0
+                    },
+                    "itemSwitching": {
+                        "minDelay": 2,
+                        "maxDelay": 3,
+                        "amount": 0
+                    },
+                    "shufflePercentage": 0
+                },
+                {
+                    "timeout": 6.5,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 2,
+                    "itemsOnRound": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "itemMoving": {
+                        "minDelay": 2,
+                        "maxDelay": 3,
+                        "amount": 1
+                    },
+                    "itemSwitching": {
+                        "minDelay": 2,
+                        "maxDelay": 3,
+                        "amount": 1
+                    },
+                    "shufflePercentage": 0.1
+                },
+                {
+                    "timeout": 5.5,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 3,
+                    "itemsOnRound": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "itemMoving": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 2
+                    },
+                    "itemSwitching": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 2
+                    },
+                    "shufflePercentage": 0.2
+                },
+                {
+                    "timeout": 5.5,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 1,
+                    "itemsOnRound": {
+                        "min": 14,
+                        "max": 14
+                    },
+                    "itemMoving": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 3
+                    },
+                    "itemSwitching": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 3
+                    },
+                    "shufflePercentage": 0.3
+                },
+                {
+                    "timeout": 4.5,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 2,
+                    "itemsOnRound": {
+                        "min": 14,
+                        "max": 14
+                    },
+                    "itemMoving": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 4
+                    },
+                    "itemSwitching": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 4
+                    },
+                    "shufflePercentage": 0.4
+                },
+                {
+                    "timeout": 4.5,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 3,
+                    "itemsOnRound": {
+                        "min": 14,
+                        "max": 14
+                    },
+                    "itemMoving": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 5
+                    },
+                    "itemSwitching": {
+                        "minDelay": 1,
+                        "maxDelay": 3,
+                        "amount": 5
+                    },
+                    "shufflePercentage": 0.5
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 1,
+                    "itemsOnRound": {
+                        "min": 18,
+                        "max": 18
+                    },
+                    "itemMoving": {
+                        "minDelay": 1,
+                        "maxDelay": 2,
+                        "amount": 6
+                    },
+                    "itemSwitching": {
+                        "minDelay": 1,
+                        "maxDelay": 2,
+                        "amount": 6
+                    },
+                    "shufflePercentage": 0.6
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 2,
+                    "itemsOnRound": {
+                        "min": 18,
+                        "max": 18
+                    },
+                    "itemMoving": {
+                        "minDelay": 1,
+                        "maxDelay": 2,
+                        "amount": 7
+                    },
+                    "itemSwitching": {
+                        "minDelay": 1,
+                        "maxDelay": 2,
+                        "amount": 7
+                    },
+                    "shufflePercentage": 0.7
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "itemSize": 3,
+                    "itemsOnRound": {
+                        "min": 20,
+                        "max": 20
+                    },
+                    "itemMoving": {
+                        "minDelay": 1,
+                        "maxDelay": 2,
+                        "amount": 8
+                    },
+                    "itemSwitching": {
+                        "minDelay": 1,
+                        "maxDelay": 2,
+                        "amount": 8
+                    },
+                    "shufflePercentage": 0.8
+                }
+            ]
+        }
+    }
+}

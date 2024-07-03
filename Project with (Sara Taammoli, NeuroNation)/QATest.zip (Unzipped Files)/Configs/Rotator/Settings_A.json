@@ -1,0 +1,51 @@
+{
+	"id": "Rotator",
+	"localization": {
+		"questionSymbol": "?",
+		"Rotator_instruction_text": "Tap the pattern that matches the one displayed in the center. Pay attention to its exact position within that space."
+	},
+	"configs": {
+		"config":"Configs/Rotator/Config_A.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "Rotator",
+			"path": "Bundles/rotator",
+			"cache": false
+		},
+		{
+			"id": "OnboardingHUD",
+			"path": "Bundles/onboardinghud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "Rotator",
+			"contexts": [
+				{
+					"id": "OnboardingHUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

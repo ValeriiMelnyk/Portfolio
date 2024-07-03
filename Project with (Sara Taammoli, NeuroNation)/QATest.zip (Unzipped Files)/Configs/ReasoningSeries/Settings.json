@@ -1,0 +1,33 @@
+{
+	"id": "ReasoningSeries",
+	"localization": {
+	},
+	"configs": {
+		"config": "Configs/ReasoningSeries/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ReasoningSeries",
+			"path": "Bundles/reasoningseries",
+			"cache": false
+		},
+		{
+			"id": "MinHUD",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ReasoningSeries",
+			"contexts": [
+				{
+					"id": "MinHUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,173 @@
+{
+    "exercise": {
+        "id": "Formula",
+        "settingsClassName": "Formula.Model.FormulaConfiguration,Formula",
+        "exerciseConfig": {
+            "modelClassName": "Formula.Model.FormulaModel,Formula",
+            "controllerClassName": "Formula.Controller.FormulaController,Formula",
+            "viewClassName": "Formula.View.FormulaView,Formula",
+            "assetClassName": "Formula.Assets.FormulaAssets,Formula",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "colors": [
+                "red",
+                "orange",
+                "purple",
+                "brown",
+                "black",
+                "turquoise"
+            ],
+            "backgroundStartColour": [
+                214,
+                213,
+                127
+            ],
+            "backgroundEndColour": [
+                180,
+                179,
+                101
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1.6,
+            "maxD": 11,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "multiDivRatio": 0,
+                    "numbers": 3,
+                    "maximum": 10
+                },
+                {
+                    "timeout": 12,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "multiDivRatio": 0,
+                    "numbers": 3,
+                    "maximum": 15
+                },
+                {
+                    "timeout": 11,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "multiDivRatio": 0,
+                    "numbers": 3,
+                    "maximum": 20
+                },
+                {
+                    "timeout": 10,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.25,
+                    "numbers": 4,
+                    "maximum": 25
+                },
+                {
+                    "timeout": 9,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.5,
+                    "numbers": 4,
+                    "maximum": 30
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.5,
+                    "numbers": 5,
+                    "maximum": 30
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 28,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.5,
+                    "numbers": 5,
+                    "maximum": 60
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 36,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.5,
+                    "numbers": 6,
+                    "maximum": 70
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 45,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.5,
+                    "numbers": 6,
+                    "maximum": 100
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 55,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.6,
+                    "numbers": 6,
+                    "maximum": 150
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 66,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.7,
+                    "numbers": 6,
+                    "maximum": 200
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 78,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "multiDivRatio": 0.8,
+                    "numbers": 6,
+                    "maximum": 250
+                }
+            ]
+        }
+    }
+}

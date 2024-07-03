@@ -1,0 +1,703 @@
+{
+    "exercise": {
+        "id": "QuickSwitch",
+        "settingsClassName": "",
+        "exerciseConfig": {
+            "modelClassName": "",
+            "controllerClassName": "",
+            "viewClassName": "",
+            "assetClassName": "",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "backgroundStartColour": [
+                255,
+                205,
+                112
+            ],
+            "backgroundEndColour": [
+                193,
+                102,
+                0
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 22,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 15,
+                    "badRuns": 1,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters"
+                    ],
+                    "initialItemsAmount": 6,
+                    "starProbability": 0,
+                    "maxVisibleItems": 9,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 5.69999999999999,
+                    "goodRuns": 16,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters"
+                    ],
+                    "initialItemsAmount": 7,
+                    "starProbability": 0.2,
+                    "maxVisibleItems": 10,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 5.59999999999999,
+                    "goodRuns": 17,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 8,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 11,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 5.49999999999999,
+                    "goodRuns": 18,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 8,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 11,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 5.39999999999999,
+                    "goodRuns": 19,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 8,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 11,
+                    "numberIncrement": 3,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 5.29999999999999,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 9,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 12,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 2,
+                    "symbolSequenceLength": 2,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 5.19999999999999,
+                    "goodRuns": 21,
+                    "badRuns": 3,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 9,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 12,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 2,
+                    "symbolSequenceLength": 2,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 5.09999999999999,
+                    "goodRuns": 22,
+                    "badRuns": 3,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 9,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 12,
+                    "numberIncrement": 3,
+                    "colorSequenceLength": 2,
+                    "symbolSequenceLength": 2,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.99999999999999,
+                    "goodRuns": 23,
+                    "badRuns": 3,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 13,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 3,
+                    "symbolSequenceLength": 3,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.89999999999999,
+                    "goodRuns": 24,
+                    "badRuns": 3,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 13,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 3,
+                    "symbolSequenceLength": 3,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.79999999999999,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 13,
+                    "numberIncrement": 3,
+                    "colorSequenceLength": 3,
+                    "symbolSequenceLength": 3,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.7,
+                    "goodRuns": 26,
+                    "badRuns": 3,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 14,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 4,
+                    "symbolSequenceLength": 4,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.6,
+                    "goodRuns": 27,
+                    "badRuns": 3,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 14,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 4,
+                    "symbolSequenceLength": 4,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.5,
+                    "goodRuns": 28,
+                    "badRuns": 3,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 14,
+                    "numberIncrement": 3,
+                    "colorSequenceLength": 4,
+                    "symbolSequenceLength": 4,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.4,
+                    "goodRuns": 29,
+                    "badRuns": 3,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.3,
+                    "goodRuns": 30,
+                    "badRuns": 3,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.2,
+                    "goodRuns": 31,
+                    "badRuns": 3,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 3,
+                    "colorSequenceLength": 1,
+                    "symbolSequenceLength": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4.1,
+                    "goodRuns": 32,
+                    "badRuns": 3,
+                    "score": 20,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 2,
+                    "symbolSequenceLength": 2,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 33,
+                    "badRuns": 3,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 2,
+                    "symbolSequenceLength": 2,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 3.9,
+                    "goodRuns": 34,
+                    "badRuns": 3,
+                    "score": 22,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 3,
+                    "colorSequenceLength": 2,
+                    "symbolSequenceLength": 2,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 3.8,
+                    "goodRuns": 35,
+                    "badRuns": 3,
+                    "score": 23,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 1,
+                    "colorSequenceLength": 3,
+                    "symbolSequenceLength": 3,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 3.7,
+                    "goodRuns": 36,
+                    "badRuns": 3,
+                    "score": 24,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 2,
+                    "colorSequenceLength": 3,
+                    "symbolSequenceLength": 3,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                },
+                {
+                    "timeout": 3.6,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 25,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters",
+                        "Symbols",
+                        "Shape"
+                    ],
+                    "initialItemsAmount": 10,
+                    "starProbability": 0.3,
+                    "maxVisibleItems": 15,
+                    "numberIncrement": 3,
+                    "colorSequenceLength": 3,
+                    "symbolSequenceLength": 3,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ClockWise",
+  "localization": {
+  	"ClockWise_task_position":"Was a position just skipped?",
+	"ClockWise_task_color":"Is there a different colour displayed compared with before?",
+	"ClockWise_task_shape":"Is another shape displayed compared with before?",
+	"ClockWise_task_short_position":"Position\nskipped?",
+	"ClockWise_task_short_color":"Colour\nchanged?",
+	"ClockWise_task_short_shape":"Shape\nchanged?"
+  },
+  "configs": {
+    "config": "Configs/ClockWise/Config.json"
+  },
+  "bundles": [
+    {
+      "id": "ExerciseBackground",
+      "path": "Bundles/exercisebackground",
+      "cache": false
+    },
+    {
+      "id": "ClockWise",
+      "path": "Bundles/clockwise",
+      "cache": false
+    },
+    {
+      "id": "HUD",
+      "path": "Bundles/hud",
+      "cache": false
+    },
+    {
+      "id": "InputOverlay",
+      "path": "Bundles/inputoverlay",
+      "cache": false
+    }
+  ],
+  "contexts": [
+    {
+      "id": "ExerciseBackground"
+    },
+    {
+      "id": "ClockWise",
+      "contexts": [
+        {
+          "id": "HUD"
+        },
+        {
+          "id": "Dialogue"
+        },
+        {
+          "id": "InputOverlay"
+        }
+      ]
+    }
+  ]
+}

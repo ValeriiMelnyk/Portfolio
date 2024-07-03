@@ -1,0 +1,419 @@
+{
+    "exercise": {
+        "id": "PathFinderReverse",
+        "settingsClassName": "PathFinder.Model.PathFinderConfiguration,PathFinder",
+        "exerciseConfig": {
+            "modelClassName": "PathFinder.Model.PathFinderModel,PathFinder",
+            "controllerClassName": "PathFinder.Controller.PathFinderController,PathFinder",
+            "viewClassName": "PathFinder.View.PathFinderReverseView,PathFinder",
+            "assetClassName": "PathFinder.Assets.PathFinderAssets,PathFinder",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "dotVisualizationDefinitions": [
+                {
+                    "color": "0xf1872d"
+                },
+                {
+                    "color": "0xdcbf27"
+                },
+                {
+                    "color": "0x81ad20"
+                },
+                {
+                    "color": "0x116b69"
+                },
+                {
+                    "color": "0x2b50a1"
+                },
+                {
+                    "color": "0xc21a81"
+                }
+            ],
+            "backgroundStartColour": [
+                247,
+                118,
+                138
+            ],
+            "backgroundEndColour": [
+                163,
+                76,
+                126
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1,
+            "isAssessment": true,
+            "maxD": 13,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": 5,
+                    "goodRuns": 30,
+                    "badRuns": 30,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 10,
+                    "maxConsecutiveBadRuns": 0,
+                    "retryConfig": {
+                        "retries": 1,
+                        "initialBadRuns": 5
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Practice"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 5,
+                        "max": 5
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 6,
+                        "max": 6
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 7,
+                        "max": 7
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 8,
+                        "max": 8
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 9,
+                        "max": 9
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 10,
+                        "max": 10
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 11,
+                        "max": 11
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 12,
+                        "max": 12
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 13,
+                        "max": 13
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 10,
+                    "badRuns": 10,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 14,
+                        "max": 14
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 650,
+                    "dotMoveConfig": {},
+                    "maxConsecutiveGoodRuns": 2,
+                    "maxTotalRuns": 2,
+                    "maxConsecutiveBadRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Test"
+                }
+            ]
+        }
+    }
+}

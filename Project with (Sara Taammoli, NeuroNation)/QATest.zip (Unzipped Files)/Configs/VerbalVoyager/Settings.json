@@ -1,0 +1,54 @@
+{
+	"id": "VerbalVoyager",
+	"localization": {
+	},
+	"configs": {
+		"config":"Configs/VerbalVoyager/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "VerbalVoyager",
+			"path": "Bundles/verbalvoyager",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		},
+		{
+			"id": "dictionary",
+			"path": "Bundles/dictionaries/{language}",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "VerbalVoyager",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

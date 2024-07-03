@@ -1,0 +1,359 @@
+{
+    "exercise": {
+        "id": "ConfusionSpeed",
+        "settingsClassName": "ConfusionSpeed.Model.ConfusionSpeedConfiguration,ConfusionSpeed",
+        "exerciseConfig": {
+            "modelClassName": "ConfusionSpeed.Model.ConfusionSpeedModel,ConfusionSpeed",
+            "controllerClassName": "\"\"",
+            "viewClassName": "\"\"",
+            "assetClassName": "\"\"",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "enforce timeout": true,
+            "backgroundStartColour": [
+                166,
+                42,
+                92
+            ],
+            "backgroundEndColour": [
+                108,
+                49,
+                74
+            ],
+            "backgroundVectorAngle": 225,
+            "correctProbability": 0.5,
+            "nonTargetIsComplexProbability": 0.33,
+            "maxD": 15,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 1,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 2,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 3000
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 2,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 3,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 3000
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 3,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 4,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 3000
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 4,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 5,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 3000
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 5,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 6,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 3000
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 6,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 7,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 2400
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 7,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 8,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 2400
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 8,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 9,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 0,
+                    "stimulusMs": 2400
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 9,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 10,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 1,
+                    "stimulusMs": 2000
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 10,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 11,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 2,
+                    "stimulusMs": 2000
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 11,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 12,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 3,
+                    "stimulusMs": 2000
+                },
+                {
+                    "timeout": 3.6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 12,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 12,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 3,
+                    "stimulusMs": 1800
+                },
+                {
+                    "timeout": 3.2,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 13,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 12,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 3,
+                    "stimulusMs": 1600
+                },
+                {
+                    "timeout": 2.8,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 14,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 12,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 3,
+                    "stimulusMs": 1400
+                },
+                {
+                    "timeout": 2.4,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 15,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 12,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 3,
+                    "stimulusMs": 1200
+                },
+                {
+                    "timeout": 2,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 16,
+                    "memorizeTimeout": -1,
+                    "numBoxes": 12,
+                    "categories": [
+                        "A",
+                        "B",
+                        "C",
+                        "D",
+                        "E",
+                        "F",
+                        "G",
+                        "H",
+                        "I"
+                    ],
+                    "repeatedCategories": 3,
+                    "stimulusMs": 1000
+                }
+            ]
+        }
+    }
+}

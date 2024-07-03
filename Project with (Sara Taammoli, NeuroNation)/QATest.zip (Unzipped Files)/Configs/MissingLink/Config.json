@@ -1,0 +1,235 @@
+{
+    "exercise": {
+        "id": "MissingLink",
+        "settingsClassName": "",
+        "exerciseConfig": {
+            "modelClassName": "",
+            "controllerClassName": "",
+            "viewClassName": "",
+            "assetClassName": "",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "backgroundStartColour": [
+                251,
+                206,
+                90
+            ],
+            "backgroundEndColour": [
+                254,
+                172,
+                0
+            ],
+            "backgroundVectorAngle": 225,
+            "isAssessment": true,
+            "maxD": 6,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 1000,
+                    "badRuns": 1000,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "maxTotalGoodRuns": 2,
+                    "maxTotalBadRuns": 4,
+                    "maxTotalRuns": 6,
+                    "retryConfig": {
+                        "retries": 2,
+                        "consecutiveBadRuns": 1,
+                        "persistentRunCounts": true
+                    },
+                    "levelTimeout": -1,
+                    "phase": "Practice",
+                    "relationOne": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Number"
+                    },
+                    "relationTwo": "",
+                    "relationThree": "",
+                    "minElements": 1,
+                    "maxElements": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1000,
+                    "badRuns": 1000,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "maxTotalGoodRuns": 2,
+                    "maxTotalBadRuns": 2,
+                    "maxTotalRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 120,
+                    "phase": "Test",
+                    "relationOne": {
+                        "relation": "Progression",
+                        "objectType": "Lines",
+                        "attribute": "Number"
+                    },
+                    "relationTwo": "",
+                    "relationThree": "",
+                    "minElements": 1,
+                    "maxElements": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1000,
+                    "badRuns": 1000,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "maxTotalGoodRuns": 2,
+                    "maxTotalBadRuns": 2,
+                    "maxTotalRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 120,
+                    "phase": "Test",
+                    "relationOne": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Fill"
+                    },
+                    "relationTwo": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Type"
+                    },
+                    "relationThree": "",
+                    "minElements": 2,
+                    "maxElements": 5
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1000,
+                    "badRuns": 1000,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "maxTotalGoodRuns": 2,
+                    "maxTotalBadRuns": 2,
+                    "maxTotalRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 120,
+                    "phase": "Test",
+                    "relationOne": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Rotation"
+                    },
+                    "relationTwo": {
+                        "relation": "And",
+                        "objectType": "Lines",
+                        "attribute": "Type"
+                    },
+                    "relationThree": "",
+                    "minElements": 2,
+                    "maxElements": 6
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1000,
+                    "badRuns": 1000,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "maxTotalGoodRuns": 2,
+                    "maxTotalBadRuns": 2,
+                    "maxTotalRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 120,
+                    "phase": "Test",
+                    "relationOne": {
+                        "relation": "ConsistentUnion",
+                        "objectType": "Shapes",
+                        "attribute": "Color"
+                    },
+                    "relationTwo": {
+                        "relation": "Progression",
+                        "objectType": "Lines",
+                        "attribute": "Number"
+                    },
+                    "relationThree": "",
+                    "minElements": 2,
+                    "maxElements": 6
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1000,
+                    "badRuns": 1000,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "maxTotalGoodRuns": 2,
+                    "maxTotalBadRuns": 2,
+                    "maxTotalRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 120,
+                    "phase": "Test",
+                    "relationOne": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Rotation"
+                    },
+                    "relationTwo": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Number"
+                    },
+                    "relationThree": {
+                        "relation": "ConsistentUnion",
+                        "objectType": "Lines",
+                        "attribute": "Type"
+                    },
+                    "minElements": 3,
+                    "maxElements": 7
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1000,
+                    "badRuns": 1000,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "maxTotalGoodRuns": 2,
+                    "maxTotalBadRuns": 2,
+                    "maxTotalRuns": 2,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 120,
+                    "phase": "Test",
+                    "relationOne": {
+                        "relation": "Xor",
+                        "objectType": "Shapes",
+                        "attribute": "Color"
+                    },
+                    "relationTwo": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Rotation"
+                    },
+                    "relationThree": {
+                        "relation": "Progression",
+                        "objectType": "Shapes",
+                        "attribute": "Type"
+                    },
+                    "minElements": 4,
+                    "maxElements": 7
+                }
+            ]
+        }
+    }
+}

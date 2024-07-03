@@ -1,0 +1,36 @@
+{
+	"id": "QuickSwitchBrain",
+	"localization": {
+		"hint_1": "What is the first answer?",
+		"hint_2": "What comes after \"{0}\"?"
+	},
+	"configs": {
+		"config": "Configs/QuickSwitchBrain/Config.json",
+		"levels": "Configs/QuickSwitchBrain/Levels.json"
+	},
+	"bundles": [
+		{
+			"id": "QuickSwitchBrain",
+			"path": "Bundles/quickswitchbrain",
+			"cache": false
+		},
+		{
+			"id": "minhud",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "QuickSwitchBrain",
+			"contexts": [
+				{
+					"id": "MinHUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

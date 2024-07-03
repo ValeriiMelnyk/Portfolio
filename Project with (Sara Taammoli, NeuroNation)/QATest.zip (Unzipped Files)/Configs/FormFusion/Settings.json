@@ -1,0 +1,50 @@
+{
+	"id": "FormFusion",
+	"localization": {
+		"FormFusion_instruction_text": "Merge the shapes left to the equal sign while looking out for any plus or minus signs. Tap on the resulting shape at the bottom."
+	},
+	"configs": {
+		"config":"Configs/FormFusion/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "FormFusion",
+			"path": "Bundles/formfusion",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "FormFusion",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

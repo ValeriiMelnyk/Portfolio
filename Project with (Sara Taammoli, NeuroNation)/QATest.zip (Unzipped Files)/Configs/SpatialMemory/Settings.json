@@ -1,0 +1,35 @@
+{
+	"id": "SpatialMemory",
+	"localization": {
+		"post_memorize_text": "Im Folgenden wird Ihnen auf dem Bildschirm eine leere Box präsentiert sowie eine Legende mit verschiedenen Formen. Ihre Aufgabe ist es nun, die Formen in die korrekte Position der Box zu übertragen, entsprechend der zuvor gezeigten Abbildung. Um dies zu tun, ziehen Sie die Formen mithilfe der Maus bei gedrückter Maustaste aus der Legende am rechten Bildschirmrand heraus in die jeweilige Position der Box. Wenn Sie während der Prozedur Ihre ursprüngliche Meinung ändern, können Sie mit einem Doppelklick auf die Figur die Form aus der Box löschen oder die Form einfach mit der Maus aus der Box herausziehen. Geben Sie gut Acht! Einige Formen sehen sich sehr ähnlich!",
+		"continue": "Übung fortsetzen",
+		"try_again": "Nochmal versuchen",
+		"not_correct": "Das war leider nicht korrekt, versuchen sie es nochmal.",
+		"answer_button": "Fertig",
+		"memorize_button": "Gemerkt"
+	},
+	"configs": {
+		"config": "Configs/SpatialMemory/Config.json"
+	},
+	"bundles": [{
+			"id": "SpatialMemory",
+			"path": "Bundles/spatialmemory",
+			"cache": false
+		},
+		{
+			"id": "MinHUD",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [{
+		"id": "SpatialMemory",
+		"contexts": [{
+				"id": "MinHUD"
+			},
+			{
+				"id": "Dialogue"
+			}
+		]
+	}]
+}

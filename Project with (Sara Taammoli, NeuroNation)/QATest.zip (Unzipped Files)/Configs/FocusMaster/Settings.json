@@ -1,0 +1,64 @@
+{
+	"id": "FocusMaster",
+	"localization": {
+		"FocusMaster_STR_Red":"red",
+		"FocusMaster_STR_Blue":"blue",
+		"FocusMaster_STR_Black":"black",
+		"FocusMaster_STR_Purple":"purple",
+		"FocusMaster_STR_Orange":"orange",
+		"FocusMaster_STR_Turquise":"turquise",
+		"FocusMaster_STR_Round":"round",
+		"FocusMaster_STR_Angular":"angular",
+		"FocusMaster_STR_Painted":"filled",
+		"FocusMaster_STR_Stripes":"dashed",
+		"FocusMaster_STR_Empty":"empty",
+		"FocusMaster_STR_Dotted":"dotted",
+		"memorize_text":"Memorize the descriptions.",
+		"question_text":"Does the description match the shape?"
+	},
+	"configs": {
+		"config":"Configs/FocusMaster/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "FocusMaster",
+			"path": "Bundles/focusmaster",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "FocusMaster",
+			"contexts": [
+				
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

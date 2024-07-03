@@ -1,0 +1,35 @@
+{
+	"id": "ColorCrazeBrain",
+	"localization": {
+		
+	},
+	"configs": {
+		"config":"Configs/ColorCrazeBrain/Config.json",
+		"levels":"Configs/ColorCrazeBrain/Levels.json"
+	},
+	"bundles": [
+		{
+			"id": "ColorCrazeBrain",
+			"path": "Bundles/colorcrazebrain",
+			"cache": false
+		},
+		{
+			"id": "MinHUD",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ColorCrazeBrain",
+			"contexts": [
+				{
+					"id": "MinHUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

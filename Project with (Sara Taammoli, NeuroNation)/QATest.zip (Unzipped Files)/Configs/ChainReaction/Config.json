@@ -1,0 +1,230 @@
+{
+    "exercise": {
+        "id": "ChainReaction",
+        "settingsClassName": "ChainReaction.Model.ChainReactionConfiguration,ChainReaction",
+        "exerciseConfig": {
+            "modelClassName": "ChainReaction.Model.ChainReactionModel,ChainReaction",
+            "controllerClassName": "ChainReaction.Controller.ChainReactionController,ChainReaction",
+            "viewClassName": "ChainReaction.View.ChainReactionView,ChainReaction",
+            "assetClassName": "ChainReaction.Assets.ChainReactionAssets,ChainReaction",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "numberOfCorrections": 3,
+            "numberOfSymbols": 167,
+            "symbolProbabilityTolerance": 0.2,
+            "backgroundStartColour": [
+                255,
+                154,
+                158
+            ],
+            "backgroundEndColour": [
+                245,
+                129,
+                95
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 14,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 5,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "max": 5,
+                    "symbolProbability": 0,
+                    "min": 1,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 0
+                },
+                {
+                    "timeout": 10,
+                    "goodRuns": 10,
+                    "badRuns": 3,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 10,
+                    "symbolProbability": 0.025,
+                    "min": 1,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 1
+                },
+                {
+                    "timeout": 7.5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 15,
+                    "symbolProbability": 0.05,
+                    "min": 2,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 1
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 20,
+                    "symbolProbability": 0.075,
+                    "min": 4,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 1
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 25,
+                    "symbolProbability": 0.1,
+                    "min": 6,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 1
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 30,
+                    "symbolProbability": 0.125,
+                    "min": 6,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 2
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 35,
+                    "symbolProbability": 0.15,
+                    "min": 8,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 2
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 40,
+                    "symbolProbability": 0.175,
+                    "min": 10,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 2
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 45,
+                    "symbolProbability": 0.2,
+                    "min": 15,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 2
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 50,
+                    "symbolProbability": 0.225,
+                    "min": 15,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 3
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 55,
+                    "symbolProbability": 0.25,
+                    "min": 20,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 3
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 60,
+                    "symbolProbability": 0.25,
+                    "min": 25,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 3
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 65,
+                    "symbolProbability": 0.25,
+                    "min": 30,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 3
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 70,
+                    "symbolProbability": 0.275,
+                    "min": 30,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 4
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 99,
+                    "symbolProbability": 0.275,
+                    "min": 40,
+                    "symbolCorrectToHide": 1,
+                    "symbols": 4
+                }
+            ]
+        }
+    }
+}

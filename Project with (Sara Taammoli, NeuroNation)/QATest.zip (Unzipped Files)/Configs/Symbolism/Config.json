@@ -1,0 +1,182 @@
+{
+    "exercise": {
+        "id": "Symbolism",
+        "settingsClassName": "Symbolism.Model.SymbolismConfiguration,Symbolism",
+        "exerciseConfig": {
+            "modelClassName": "Symbolism.Model.SymbolismModel,Symbolism",
+            "controllerClassName": "Symbolism.Controller.SymbolismController,Symbolism",
+            "viewClassName": "Symbolism.View.SymbolismView,Symbolism",
+            "assetClassName": "Symbolism.Assets.SymbolismAssets,Symbolism",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "cardTurn": 0,
+            "setOfSymbols": {
+                "fallback": "123456789ABCDEFGHJKMNPQRSTUVWXYZ"
+            },
+            "swapSpeed": 0.1,
+            "pauseBeforeFirstClick": true,
+            "memorizeFromLevel": 0,
+            "backgroundStartColour": [
+                215,
+                99,
+                98
+            ],
+            "backgroundEndColour": [
+                162,
+                69,
+                69
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 12,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 5,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 0,
+                    "numShuffles": 0,
+                    "cards": 2,
+                    "warmUpRounds": 0
+                },
+                {
+                    "timeout": 7.5,
+                    "goodRuns": 10,
+                    "badRuns": 4,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 0,
+                    "numShuffles": 0,
+                    "cards": 3,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 15,
+                    "badRuns": 3,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 3,
+                    "numShuffles": 1,
+                    "cards": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 3,
+                    "numShuffles": 1,
+                    "cards": 5,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 6.5,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 3,
+                    "numShuffles": 1,
+                    "cards": 6,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 3,
+                    "numShuffles": 1,
+                    "cards": 7,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 5.5,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 3,
+                    "numShuffles": 1,
+                    "cards": 8,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 2,
+                    "numShuffles": 1,
+                    "cards": 9,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4.5,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 2,
+                    "numShuffles": 1,
+                    "cards": 10,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 2,
+                    "numShuffles": 1,
+                    "cards": 11,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 2,
+                    "numShuffles": 1,
+                    "cards": 12,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 25,
+                    "badRuns": 3,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 2,
+                    "numShuffles": 1,
+                    "cards": 12,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 2.5,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 1,
+                    "numShuffles": 1,
+                    "cards": 12,
+                    "warmUpRounds": 3
+                }
+            ]
+        }
+    }
+}

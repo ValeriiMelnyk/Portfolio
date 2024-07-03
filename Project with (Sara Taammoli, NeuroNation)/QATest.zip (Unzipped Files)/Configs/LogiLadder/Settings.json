@@ -1,0 +1,50 @@
+{
+	"id": "LogiLadder",
+	"localization": {
+		"logiladder_wrong_answer_text": "Sorry, you didn't find the correct solution. Click to continue."
+	},
+	"configs": {
+		"config":"Configs/LogiLadder/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "LogiLadder",
+			"path": "Bundles/logiladder",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "LogiLadder",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

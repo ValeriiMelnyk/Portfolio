@@ -1,0 +1,52 @@
+{
+	"id": "Memobox",
+	"localization": {
+		"question": "How many objects are hidden in the highlited box?",
+		"none": "None",
+		"MemoBox_instruction_present_round": "In the following, memorise how many objects remain in each box. Also note that the boxes can swap places."
+	},
+	"configs": {
+		"config":"Configs/Memobox/Config_A.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "Memobox",
+			"path": "Bundles/memobox",
+			"cache": false
+		},
+		{
+			"id": "OnboardingHUD",
+			"path": "Bundles/onboardinghud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "Memobox",
+			"contexts": [
+				{
+					"id": "OnboardingHUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

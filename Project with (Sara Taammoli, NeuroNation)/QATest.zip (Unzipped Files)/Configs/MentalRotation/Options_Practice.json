@@ -1,0 +1,5 @@
+{
+	"difficulty": 1,
+	"mode": "practice",
+	"options": "{\"maxTotalRuns\":5,\"maxTotalGoodRuns\": 2,\"timeout\":240}"
+}

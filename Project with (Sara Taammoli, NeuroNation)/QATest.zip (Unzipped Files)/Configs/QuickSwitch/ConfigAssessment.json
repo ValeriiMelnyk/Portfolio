@@ -1,0 +1,173 @@
+{
+    "exercise": {
+        "id": "QuickSwitch",
+        "settingsClassName": "QuickSwitch.Model.QuickSwitchConfiguration,QuickSwitch",
+        "exerciseConfig": {
+            "modelClassName": "QuickSwitch.Model.QuickSwitchModel,QuickSwitch",
+            "controllerClassName": "QuickSwitch.Controller.QuickSwitchController,QuickSwitch",
+            "viewClassName": "QuickSwitch.View.QuickSwitchView,QuickSwitch",
+            "assetClassName": "QuickSwitch.Assets.QuickSwitchAssets,QuickSwitch",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "backgroundStartColour": [
+                255,
+                205,
+                112
+            ],
+            "backgroundEndColour": [
+                193,
+                102,
+                0
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 3,
+            "minD": 0,
+			"isAssessment": true,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 30,
+                    "badRuns": 30,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers"
+                    ],
+                    "initialItemsAmount": 8,
+                    "starProbability": 0,
+                    "maxVisibleItems": 8,
+                    "numberIncrement": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "maxTotalGoodRuns": 8,
+                    "maxTotalBadRuns": 0,
+                    "maxConsecutiveBadRuns": 3,
+                    "retryConfig": {
+                        "retries": 1,
+                        "consecutiveBadRuns": 3
+                    },
+                    "levelTimeout": -1,
+					"levelUpOnFailure": false,
+                    "phase": "Practice"
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 30,
+                    "badRuns": 30,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers"
+                    ],
+                    "initialItemsAmount": 25,
+                    "starProbability": 0,
+                    "maxVisibleItems": 25,
+                    "numberIncrement": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "maxTotalGoodRuns": 25,
+                    "maxTotalBadRuns": 10,
+                    "maxConsecutiveBadRuns": 3,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 125,
+					"levelUpOnFailure": true,
+                    "phase": "Test"
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 30,
+                    "badRuns": 30,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters"
+                    ],
+                    "initialItemsAmount": 8,
+                    "starProbability": 0,
+                    "maxVisibleItems": 8,
+                    "numberIncrement": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "maxTotalGoodRuns": 8,
+                    "maxTotalBadRuns": 0,
+                    "maxConsecutiveBadRuns": 3,
+                    "retryConfig": {
+                        "retries": 1,
+                        "consecutiveBadRuns": 3
+                    },
+                    "levelTimeout": -1,
+					"levelUpOnFailure": false,
+                    "phase": "Practice"
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 30,
+                    "badRuns": 30,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "columns": 9,
+                    "rows": 5,
+                    "rules": [
+                        "Numbers",
+                        "Letters"
+                    ],
+                    "initialItemsAmount": 25,
+                    "starProbability": 0,
+                    "maxVisibleItems": 25,
+                    "numberIncrement": 1,
+                    "embedRules": false,
+                    "useJoker": false,
+                    "specialItemProbability": 0,
+                    "fakeJokerProbability": 0,
+                    "numDarkCells": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "maxTotalGoodRuns": 25,
+                    "maxTotalBadRuns": 10,
+                    "maxConsecutiveBadRuns": 3,
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "levelTimeout": 250,
+					"levelUpOnFailure": false,
+                    "phase": "Test"
+                }
+            ]
+        }
+    }
+}

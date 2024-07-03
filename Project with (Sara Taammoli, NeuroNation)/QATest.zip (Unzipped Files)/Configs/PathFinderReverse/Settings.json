@@ -1,0 +1,51 @@
+{
+	"id": "PathFinderReverse",
+	"localization": {
+		"feedback_correct": "Well done",
+		"feedback_wrong": "Please try again"
+	},
+	"configs": {
+		"config": "Configs/PathFinderReverse/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "PathFinderReverse",
+			"path": "Bundles/pathfinderreverse",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "PathFinderReverse",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1852 @@
+{
+    "exercise": {
+        "id": "Reflector",
+        "settingsClassName": "Reflector.Model.ReflectorConfiguration,Reflector",
+        "exerciseConfig": {
+            "modelClassName": "Reflector.Model.ReflectorModel,Reflector",
+            "controllerClassName": "Reflector.Controller.ReflectorController,Reflector",
+            "viewClassName": "Reflector.View.ReflectorView,Reflector",
+            "assetClassName": "Reflector.Assets.ReflectorAssets,Reflector",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "backgroundStartColour": [
+                202,
+                197,
+                49
+            ],
+            "backgroundEndColour": [
+                113,
+                110,
+                23
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 34,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "memorizeTimeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "memoDim": 2,
+                    "totalFieldsToMemorise": 1,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 2,
+                    "symmetrySolvingTime": "3.6",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 0
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 2,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 2,
+                            "prob": 0
+                        },
+                        "cards": {
+                            "cardAmount": 2,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 1,
+                            "prob": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": -1,
+                    "memorizeTimeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 4,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 2,
+                    "totalFieldsToMemorise": 1,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 2,
+                    "symmetrySolvingTime": "3.65",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 0
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 2,
+                            "prob": 0
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 2,
+                            "prob": 0
+                        },
+                        "cards": {
+                            "cardAmount": 2,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 1,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": -1,
+                    "memorizeTimeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 4,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 2,
+                    "totalFieldsToMemorise": 1,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 2,
+                    "symmetrySolvingTime": "3.7",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 0
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 2,
+                            "prob": 0
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 2,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 2,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 1,
+                            "prob": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": -1,
+                    "memorizeTimeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 2,
+                    "totalFieldsToMemorise": 2,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 2,
+                    "symmetrySolvingTime": "3.75",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 0,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 2,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 3,
+                            "prob": 0
+                        },
+                        "cards": {
+                            "cardAmount": 2,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 1,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.8",
+                    "memorizeTimeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 2,
+                    "totalFieldsToMemorise": 2,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 2,
+                    "symmetrySolvingTime": "3.8",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 0,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 2,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 4,
+                            "prob": 0
+                        },
+                        "cards": {
+                            "cardAmount": 2,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 1,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.7",
+                    "memorizeTimeout": 8.4,
+                    "goodRuns": 2,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 3,
+                    "totalFieldsToMemorise": 2,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 2,
+                    "symmetrySolvingTime": "3.85",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 0,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 2,
+                            "prob": 0
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 5,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 2,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 1,
+                            "prob": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.6",
+                    "memorizeTimeout": 8.2,
+                    "goodRuns": 2,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 3,
+                    "totalFieldsToMemorise": 2,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 2,
+                    "symmetrySolvingTime": "3.9",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 0
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 2,
+                            "prob": 0
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 6,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 2,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 2,
+                            "prob": 0
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.5",
+                    "memorizeTimeout": 8,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 3,
+                    "totalFieldsToMemorise": 3,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 1,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 3,
+                    "symmetrySolvingTime": "3.95",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 0,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 3,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 6,
+                            "prob": 0
+                        },
+                        "cards": {
+                            "cardAmount": 3,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 2,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.4",
+                    "memorizeTimeout": 7.8,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 4,
+                    "totalFieldsToMemorise": 3,
+                    "totalFileldsToShow": 3,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 3,
+                    "symmetrySolvingTime": "4",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 3,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 7,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 3,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 2,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.3",
+                    "memorizeTimeout": 7.6,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 4,
+                    "totalFieldsToMemorise": 3,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 3,
+                    "symmetrySolvingTime": "4.05",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 3,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 8,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 3,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 2,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.2",
+                    "memorizeTimeout": 7.4,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 4,
+                    "totalFieldsToMemorise": 3,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 3,
+                    "symmetrySolvingTime": "4.1",
+                    "symmetrySolvingScore": 1,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 3,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 2,
+                            "brackets": 0,
+                            "maxNumber": 9,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 3,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 3,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "8.1",
+                    "memorizeTimeout": 7.2,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 4,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 4,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.15",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 9,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 3,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "8",
+                    "memorizeTimeout": 7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 4,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.2",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 10,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 1,
+                            "colors": 3,
+                            "itemsOnCards": 3,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.9",
+                    "memorizeTimeout": 6.8,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 4,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.25",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 11,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 3,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.8",
+                    "memorizeTimeout": 6.6,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 4,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 4,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.3",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 12,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 4,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.7",
+                    "memorizeTimeout": 6.4,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 4,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.35",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 13,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 4,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.6",
+                    "memorizeTimeout": 6.2,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.4",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 14,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 4,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.5",
+                    "memorizeTimeout": 6,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.45",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 15,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 4,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.4",
+                    "memorizeTimeout": 5.8,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 4,
+                    "totalFileldsToShow": 1,
+                    "memLoops": 4,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 4,
+                    "symmetrySolvingTime": "4.5",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 4,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 0,
+                            "maxNumber": 16,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 4,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 5,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.3",
+                    "memorizeTimeout": 5.6,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 20,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 5,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.55",
+                    "symmetrySolvingScore": 2,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 16,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 5,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.2",
+                    "memorizeTimeout": 5.4,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 3,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.6",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 17,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 5,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7.1",
+                    "memorizeTimeout": 5.2,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 22,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.65",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 18,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 5,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "7",
+                    "memorizeTimeout": 5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 23,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 5,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 4,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 2,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.7",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 19,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 6,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.9",
+                    "memorizeTimeout": 4.8,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 24,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 5,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.75",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 20,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 2,
+                            "colors": 2,
+                            "itemsOnCards": 6,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.8",
+                    "memorizeTimeout": 4.6,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 25,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 3,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.8",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 21,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 6,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.7",
+                    "memorizeTimeout": 4.4,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 26,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.85",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 22,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 6,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.6",
+                    "memorizeTimeout": 4.2,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 27,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 5,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 4,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 5,
+                    "symmetrySolvingTime": "4.9",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 5,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 23,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 5,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 7,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.5",
+                    "memorizeTimeout": 4,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 28,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 6,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "4.95",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 24,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 7,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.4",
+                    "memorizeTimeout": 3.8,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 29,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 3,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "5",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 25,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 7,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.3",
+                    "memorizeTimeout": 3.6,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 30,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "5.05",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 26,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 7,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.2",
+                    "memorizeTimeout": 3.4,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 31,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 6,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 4,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "5.1",
+                    "symmetrySolvingScore": 3,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 27,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 8,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6.1",
+                    "memorizeTimeout": 3.2,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 32,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 7,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 6,
+                    "memLoops": 1,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "5.15",
+                    "symmetrySolvingScore": 4,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 28,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 8,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "6",
+                    "memorizeTimeout": 3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 33,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 7,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 3,
+                    "memLoops": 2,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "5.2",
+                    "symmetrySolvingScore": 4,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 29,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 8,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "5.9",
+                    "memorizeTimeout": 2.8,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 34,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 7,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 3,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "5.25",
+                    "symmetrySolvingScore": 4,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 30,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 8,
+                            "prob": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": "5.8",
+                    "memorizeTimeout": 2.6,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 35,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "memoDim": 7,
+                    "totalFieldsToMemorise": 6,
+                    "totalFileldsToShow": 2,
+                    "memLoops": 4,
+                    "question": {
+                        "positions": {
+                            "prob": 0
+                        },
+                        "symbols": {
+                            "count": 3,
+                            "prob": 1
+                        },
+                        "findOne": {
+                            "possibilities": 0,
+                            "prob": 0
+                        }
+                    },
+                    "symDim": 6,
+                    "symmetrySolvingTime": "5.3",
+                    "symmetrySolvingScore": 4,
+                    "memoriseMode": {
+                        "symbol": 1,
+                        "letter": 1
+                    },
+                    "disturbers": {
+                        "symmetry": {
+                            "dim": 6,
+                            "prob": 1
+                        },
+                        "equation": {
+                            "size": 3,
+                            "brackets": 1,
+                            "maxNumber": 31,
+                            "prob": 1
+                        },
+                        "cards": {
+                            "cardAmount": 6,
+                            "shapes": 3,
+                            "colors": 1,
+                            "itemsOnCards": 9,
+                            "prob": 1
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

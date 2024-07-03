@@ -1,0 +1,5 @@
+﻿{
+  "difficulty": 1,
+  "mode": "test",
+  "options": "{\"maxTotalRuns\": 5, \"maxConsecutiveBadRuns\": 2}"
+}

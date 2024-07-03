@@ -1,0 +1,34 @@
+{
+	"id": "WordRestorer",
+	"localization": {
+		"questionSymbol": "?"
+	},
+	"configs": {
+		"config":"Configs/WordRestorer/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "WordRestorer",
+			"path": "Bundles/wordrestorer",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "WordRestorer",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

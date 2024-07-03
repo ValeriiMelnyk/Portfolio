@@ -1,0 +1,530 @@
+{
+    "exercise": {
+        "id": "PathFinder",
+        "settingsClassName": "PathFinder.Model.PathFinderConfiguration,PathFinder",
+        "exerciseConfig": {
+            "modelClassName": "PathFinder.Model.PathFinderModel,PathFinder",
+            "controllerClassName": "PathFinder.Controller.PathFinderController,PathFinder",
+            "viewClassName": "PathFinder.View.PathFinderAnimatedView,PathFinder",
+            "assetClassName": "PathFinder.Assets.PathFinderAssets,PathFinder",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "dotVisualizationDefinitions": [
+                {
+                    "color": "0x70CFE8"
+                },
+                {
+                    "color": "0xBC91C5"
+                },
+                {
+                    "color": "0xAECE6B"
+                },
+                {
+                    "color": "0xF7A98D"
+                },
+                {
+                    "color": "0xFF7975"
+                },
+                {
+                    "color": "0x7BD1A2"
+                },
+                {
+                    "color": "0xFFC577"
+                },
+                {
+                    "color": "0x8E8FBD"
+                },
+                {
+                    "color": "0x67A1C7"
+                },
+                {
+                    "color": "0xFFEB78"
+                }
+            ],
+            "backgroundStartColour": [
+                101,
+                173,
+                238
+            ],
+            "backgroundEndColour": [
+                85,
+                148,
+                219
+            ],
+            "backgroundVectorAngle": 225,
+            "time": 60,
+            "maxD": 9,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "pathLenght": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 500,
+                    "dotMoveConfig": {},
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "dots": [],
+                    "visualizations": 1,
+                    "numCrossings": "low",
+                    "dotDistribution": "wide",
+                    "presentationSpeed": 500,
+                    "dotMoveConfig": {},
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "dots": [
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 1,
+                            "moving": true
+                        }
+                    ],
+                    "visualizations": 2,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 484,
+                    "dotMoveConfig": {
+                        "speed": 0.0036,
+                        "initialDelay": {
+                            "min": 0,
+                            "max": 0
+                        },
+                        "delay": {
+                            "min": 0.54,
+                            "max": 1.08
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "dots": [
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 1,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        }
+                    ],
+                    "visualizations": 3,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 468,
+                    "dotMoveConfig": {
+                        "speed": 0.0035,
+                        "initialDelay": {
+                            "min": 0.05,
+                            "max": 0.25
+                        },
+                        "delay": {
+                            "min": 0.55,
+                            "max": 1.1
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "dots": [
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 1,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0
+                        }
+                    ],
+                    "visualizations": 4,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 452,
+                    "dotMoveConfig": {
+                        "speed": 0.0034,
+                        "initialDelay": {
+                            "min": 0.1,
+                            "max": 0.3
+                        },
+                        "delay": {
+                            "min": 0.56,
+                            "max": 1.12
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 5,
+                        "max": 5
+                    },
+                    "dots": [
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 1,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0
+                        }
+                    ],
+                    "visualizations": 5,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 436,
+                    "dotMoveConfig": {
+                        "speed": 0.0033,
+                        "initialDelay": {
+                            "min": 0.15,
+                            "max": 0.35
+                        },
+                        "delay": {
+                            "min": 0.57,
+                            "max": 1.14
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 5,
+                        "max": 5
+                    },
+                    "dots": [
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 1,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0,
+                            "moving": true
+                        }
+                    ],
+                    "visualizations": 6,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 420,
+                    "dotMoveConfig": {
+                        "speed": 0.0032,
+                        "initialDelay": {
+                            "min": 0.2,
+                            "max": 0.4
+                        },
+                        "delay": {
+                            "min": 0.58,
+                            "max": 1.16
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 5,
+                        "max": 5
+                    },
+                    "dots": [
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 1,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0
+                        }
+                    ],
+                    "visualizations": 7,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 404,
+                    "dotMoveConfig": {
+                        "speed": 0.0031,
+                        "initialDelay": {
+                            "min": 0.25,
+                            "max": 0.45
+                        },
+                        "delay": {
+                            "min": 0.59,
+                            "max": 1.18
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 6,
+                        "max": 6
+                    },
+                    "dots": [
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 1,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0
+                        }
+                    ],
+                    "visualizations": 7,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 388,
+                    "dotMoveConfig": {
+                        "speed": 0.003,
+                        "initialDelay": {
+                            "min": 0.3,
+                            "max": 0.5
+                        },
+                        "delay": {
+                            "min": 0.6,
+                            "max": 1.2
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "pathLenght": {
+                        "min": 7,
+                        "max": 7
+                    },
+                    "dots": [
+                        {
+                            "minCount": 2,
+                            "maxCount": 2,
+                            "visits": 1,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 2
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0,
+                            "moving": true
+                        },
+                        {
+                            "minCount": 1,
+                            "maxCount": 1,
+                            "visits": 0
+                        }
+                    ],
+                    "visualizations": 7,
+                    "numCrossings": "high",
+                    "dotDistribution": "random",
+                    "presentationSpeed": 372,
+                    "dotMoveConfig": {
+                        "speed": 0.0029,
+                        "initialDelay": {
+                            "min": 0.35,
+                            "max": 0.55
+                        },
+                        "delay": {
+                            "min": 0.61,
+                            "max": 1.22
+                        }
+                    },
+                    "badRunsForTutorial": 2,
+                    "#dots": "",
+                    "actual clicks": "",
+                    "#moving": ""
+                }
+            ]
+        }
+    }
+}

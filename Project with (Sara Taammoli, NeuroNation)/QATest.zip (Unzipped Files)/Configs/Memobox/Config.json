@@ -1,0 +1,735 @@
+{
+    "exercise": {
+        "id": "Memobox",
+        "settingsClassName": "Memobox.Model.MemoboxConfiguration,Memobox",
+        "exerciseConfig": {
+            "modelClassName": "Memobox.Model.MemoboxModel,Memobox",
+            "controllerClassName": "Memobox.Controller.MemoboxController,Memobox",
+            "viewClassName": "Memobox.View.MemoboxView,Memobox",
+            "assetClassName": "Memobox.Assets.MemoboxAssets,Memobox",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "backgroundStartColour": [
+                151,
+                117,
+                225
+            ],
+            "backgroundEndColour": [
+                107,
+                117,
+                206
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1.9,
+            "maxD": 20,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "bins": 2,
+                    "inSteps": 1,
+                    "outSteps": 0,
+                    "swapSteps": 0,
+                    "boxSwap": {},
+                    "stepPause": 0.5,
+                    "speed": 1.5,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 2,
+                    "inSteps": 2,
+                    "outSteps": 1,
+                    "swapSteps": 0,
+                    "boxSwap": {},
+                    "stepPause": 0.475,
+                    "speed": 1.45,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 2,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 3,
+                    "inSteps": 3,
+                    "outSteps": 1,
+                    "swapSteps": 0,
+                    "boxSwap": {},
+                    "stepPause": 0.45,
+                    "speed": 1.4,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 2,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 3,
+                    "inSteps": 3,
+                    "outSteps": 1,
+                    "swapSteps": 1,
+                    "boxSwap": {},
+                    "stepPause": 0.425,
+                    "speed": 1.35,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 3,
+                    "inSteps": 4,
+                    "outSteps": 1,
+                    "swapSteps": 1,
+                    "boxSwap": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "stepPause": 0.4,
+                    "speed": 1.3,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 3,
+                    "inSteps": 4,
+                    "outSteps": 1,
+                    "swapSteps": 1,
+                    "boxSwap": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "stepPause": 0.375,
+                    "speed": 1.25,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 4,
+                    "outSteps": 1,
+                    "swapSteps": 1,
+                    "boxSwap": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "stepPause": 0.35,
+                    "speed": 1.2,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 5,
+                    "outSteps": 1,
+                    "swapSteps": 1,
+                    "boxSwap": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "stepPause": 0.325,
+                    "speed": 1.15,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 5,
+                    "outSteps": 1,
+                    "swapSteps": 2,
+                    "boxSwap": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "stepPause": 0.3,
+                    "speed": 1.1,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 5,
+                    "outSteps": 1,
+                    "swapSteps": 2,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "stepPause": 0.275,
+                    "speed": 1.05,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 6,
+                    "outSteps": 1,
+                    "swapSteps": 2,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "stepPause": 0.25,
+                    "speed": 1,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 6,
+                    "outSteps": 1,
+                    "swapSteps": 2,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "stepPause": 0.225,
+                    "speed": 0.949999999999999,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 7,
+                    "outSteps": 2,
+                    "swapSteps": 2,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "stepPause": 0.2,
+                    "speed": 0.899999999999999,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 8,
+                    "outSteps": 2,
+                    "swapSteps": 2,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "stepPause": 0.175,
+                    "speed": 0.849999999999999,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 8,
+                    "outSteps": 2,
+                    "swapSteps": 3,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "stepPause": 0.15,
+                    "speed": 0.799999999999998,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 8,
+                    "outSteps": 2,
+                    "swapSteps": 3,
+                    "boxSwap": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "stepPause": 0.125,
+                    "speed": 0.749999999999998,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 9,
+                    "outSteps": 2,
+                    "swapSteps": 3,
+                    "boxSwap": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "stepPause": 0.1,
+                    "speed": 0.699999999999998,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 9,
+                    "outSteps": 2,
+                    "swapSteps": 3,
+                    "boxSwap": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "stepPause": 0.075,
+                    "speed": 0.649999999999998,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 10,
+                    "outSteps": 2,
+                    "swapSteps": 3,
+                    "boxSwap": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "stepPause": 0.05,
+                    "speed": 0.599999999999998,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 20,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 11,
+                    "outSteps": 2,
+                    "swapSteps": 3,
+                    "boxSwap": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "stepPause": 0.025,
+                    "speed": 0.549999999999998,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "bins": 4,
+                    "inSteps": 12,
+                    "outSteps": 2,
+                    "swapSteps": 3,
+                    "boxSwap": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "stepPause": 0,
+                    "speed": 0.499999999999998,
+                    "parallelProb": 0,
+                    "colors": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "shapes": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "question": {
+                        "color": 0,
+                        "shape": 1,
+                        "colorAndShape": 0
+                    },
+                    "zeroProp": 0,
+                    "numberOfAnswer": 4
+                }
+            ]
+        }
+    }
+}

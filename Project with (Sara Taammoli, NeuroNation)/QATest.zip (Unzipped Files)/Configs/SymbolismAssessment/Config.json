@@ -1,0 +1,125 @@
+{
+    "exercise": {
+        "id": "Symbolism",
+        "settingsClassName": "Symbolism.Model.SymbolismConfiguration,Symbolism",
+        "exerciseConfig": {
+            "modelClassName": "Symbolism.Model.SymbolismModel,Symbolism",
+            "controllerClassName": "Symbolism.Controller.SymbolismController,Symbolism",
+            "viewClassName": "Symbolism.View.SymbolismView,Symbolism",
+            "assetClassName": "Symbolism.Assets.SymbolismAssets,Symbolism",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "cardTurn": 0,
+            "setOfSymbols": {
+                "fallback": "123456789ABCDEFGHJKMNPQRSTUVWXYZ"
+            },
+            "swapSpeed": 0.1,
+            "pauseBeforeFirstClick": true,
+            "memorizeFromLevel": 0,
+            "backgroundStartColour": [
+                215,
+                99,
+                98
+            ],
+            "backgroundEndColour": [
+                162,
+                69,
+                69
+            ],
+            "backgroundVectorAngle": 225,
+            "isAssessment": true,
+            "maxD": 1,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": 15,
+                    "goodRuns": 10000,
+                    "badRuns": 10000,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 0,
+                    "numShuffles": 0,
+                    "cards": 8,
+                    "warmUpRounds": 0,
+                    "assetDistribution": [
+                        {
+                            "assetIndex": 0,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 1,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 2,
+                            "amount": 2
+                        },
+                        {
+                            "assetIndex": 3,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 4,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 7,
+                            "amount": 2
+                        }
+                    ],
+                    "retryConfig": {
+                        "retries": 1,
+                        "totalRuns": 10
+                    },
+                    "maxConsecutiveGoodRuns": 5,
+                    "levelTimeout": -1
+                },
+                {
+                    "timeout": 15,
+                    "goodRuns": 10000,
+                    "badRuns": 10000,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "shuffleAfterClicks": 0,
+                    "numShuffles": 0,
+                    "cards": 8,
+                    "warmUpRounds": 0,
+                    "assetDistribution": [
+                        {
+                            "assetIndex": 0,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 1,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 2,
+                            "amount": 2
+                        },
+                        {
+                            "assetIndex": 3,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 4,
+                            "amount": 1
+                        },
+                        {
+                            "assetIndex": 7,
+                            "amount": 2
+                        }
+                    ],
+                    "retryConfig": {
+                        "retries": 0
+                    },
+                    "maxConsecutiveGoodRuns": 0,
+                    "levelTimeout": 120
+                }
+            ]
+        }
+    }
+}

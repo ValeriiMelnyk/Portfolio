@@ -1,0 +1,160 @@
+{
+    "exercise": {
+        "id": "MixedMemories",
+        "settingsClassName": "\"\"",
+        "exerciseConfig": {
+            "modelClassName": "\"\"",
+            "controllerClassName": "\"\"",
+            "viewClassName": "\"\"",
+            "assetClassName": "\"\"",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "colorPerDiff": [
+                "Orange",
+                "Red",
+                "Purple",
+                "Blue",
+                "Green"
+            ],
+            "matchProbability": 0.5,
+            "maxColors": 3,
+            "maxSymbols": 10,
+            "enforceTimeout": true,
+            "backgroundStartColour": [
+                173,
+                131,
+                85
+            ],
+            "backgroundEndColour": [
+                121,
+                71,
+                43
+            ],
+            "backgroundVectorAngle": 225,
+            "stimuliDefinition": "TRICONDITIONAL_COLOR_SYMBOL",
+            "maxD": 6,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": 3,
+                    "goodRuns": 10,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 0,
+                    "numCards": 2,
+                    "symbolMatchProbability": 0.5,
+                    "colorMatchProbability": 0.5,
+                    "classicMode": false
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 15,
+                    "badRuns": 2,
+                    "score": 2,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 3,
+                    "symbolMatchProbability": 0.5,
+                    "colorMatchProbability": 0.5,
+                    "classicMode": false
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 3,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 4,
+                    "symbolMatchProbability": 0.5,
+                    "colorMatchProbability": 0.5,
+                    "classicMode": false
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 5,
+                    "symbolMatchProbability": 0.5,
+                    "colorMatchProbability": 0.5,
+                    "classicMode": false
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 6,
+                    "symbolMatchProbability": 0.5,
+                    "colorMatchProbability": 0.5,
+                    "classicMode": false
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 7,
+                    "symbolMatchProbability": 0.5,
+                    "colorMatchProbability": 0.5,
+                    "classicMode": false
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 8,
+                    "symbolMatchProbability": 0.5,
+                    "colorMatchProbability": 0.5,
+                    "classicMode": false
+                }
+            ]
+        }
+    }
+}

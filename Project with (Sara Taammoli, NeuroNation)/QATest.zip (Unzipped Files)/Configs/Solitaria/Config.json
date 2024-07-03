@@ -1,0 +1,216 @@
+{
+    "exercise": {
+        "id": "Solitaria",
+        "settingsClassName": "Solitaria.Model.SolitariaConfiguration,Solitaria",
+        "exerciseConfig": {
+            "modelClassName": "Solitaria.Model.SolitariaModel,Solitaria",
+            "controllerClassName": "Solitaria.Controller.SolitariaController,Solitaria",
+            "viewClassName": "Solitaria.View.SolitariaView,Solitaria",
+            "assetClassName": "Solitaria.Assets.SolitariaAssets,Solitaria",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": [
+                {
+                    "triggerClassName": "ExerciseEngine.Model.Tutorial.StartupTutorialTrigger,ExerciseEngine",
+                    "handlerClassName": "Solitaria.Tutorial.SolitariaTutorialHandler,Solitaria",
+                    "priority": 1,
+                    "repeats": 2
+                }
+            ],
+            "patterns": [
+                "000010000",
+                "000010010",
+                "000111000",
+                "010110010",
+                "010111010",
+                "000111111",
+                "111010111",
+                "111101111",
+                "111111111"
+            ],
+            "colors": [
+                "0x3C79FD",
+                "0xC43225",
+                "0xFF9D00",
+                "0x333333",
+                "0x62BEC6",
+                "0x6CAF00",
+                "0xA73BC0"
+            ],
+            "backgroundStartColour": [
+                214,
+                161,
+                43
+            ],
+            "backgroundEndColour": [
+                211,
+                126,
+                31
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1.5,
+            "maxD": 12,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 0,
+                    "sharedDiscriminativeFeaturesWithOdd": 0,
+                    "simultaneousOddFeaturesNum": 3,
+                    "cardsNum": 6
+                },
+                {
+                    "timeout": 23,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 0,
+                    "sharedDiscriminativeFeaturesWithOdd": 0,
+                    "simultaneousOddFeaturesNum": 3,
+                    "cardsNum": 8
+                },
+                {
+                    "timeout": 22,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 0,
+                    "sharedDiscriminativeFeaturesWithOdd": 1,
+                    "simultaneousOddFeaturesNum": 3,
+                    "cardsNum": 8
+                },
+                {
+                    "timeout": 21,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 0,
+                    "sharedDiscriminativeFeaturesWithOdd": 1,
+                    "simultaneousOddFeaturesNum": 3,
+                    "cardsNum": 10
+                },
+                {
+                    "timeout": 20,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 0,
+                    "sharedDiscriminativeFeaturesWithOdd": 2,
+                    "simultaneousOddFeaturesNum": 3,
+                    "cardsNum": 10
+                },
+                {
+                    "timeout": 19,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 0,
+                    "sharedDiscriminativeFeaturesWithOdd": 2,
+                    "simultaneousOddFeaturesNum": 3,
+                    "cardsNum": 10
+                },
+                {
+                    "timeout": 18,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 1,
+                    "sharedDiscriminativeFeaturesWithOdd": 1,
+                    "simultaneousOddFeaturesNum": 2,
+                    "cardsNum": 8
+                },
+                {
+                    "timeout": 17,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 1,
+                    "sharedDiscriminativeFeaturesWithOdd": 1,
+                    "simultaneousOddFeaturesNum": 2,
+                    "cardsNum": 8
+                },
+                {
+                    "timeout": 16,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 22,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 1,
+                    "sharedDiscriminativeFeaturesWithOdd": 1,
+                    "simultaneousOddFeaturesNum": 2,
+                    "cardsNum": 10
+                },
+                {
+                    "timeout": 15,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 26,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 1,
+                    "sharedDiscriminativeFeaturesWithOdd": 1,
+                    "simultaneousOddFeaturesNum": 2,
+                    "cardsNum": 10
+                },
+                {
+                    "timeout": 14,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 34,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 1,
+                    "sharedDiscriminativeFeaturesWithOdd": 0,
+                    "simultaneousOddFeaturesNum": 1,
+                    "cardsNum": 10
+                },
+                {
+                    "timeout": 13,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 42,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 1,
+                    "sharedDiscriminativeFeaturesWithOdd": 0,
+                    "simultaneousOddFeaturesNum": 1,
+                    "cardsNum": 10
+                },
+                {
+                    "timeout": 12,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 50,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "sharedNoDiscriminativeFeaturesWithOdd": 1,
+                    "sharedDiscriminativeFeaturesWithOdd": 0,
+                    "simultaneousOddFeaturesNum": 1,
+                    "cardsNum": 10
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,891 @@
+{
+    "exercise": {
+        "id": "Shuffler",
+        "settingsClassName": "Shuffler.Model.ShufflerConfiguration,Shuffler",
+        "exerciseConfig": {
+            "modelClassName": "Shuffler.Model.ShufflerModel,Shuffler",
+            "controllerClassName": "Shuffler.Controller.ShufflerController,Shuffler",
+            "viewClassName": "Shuffler.View.ShufflerView,Shuffler",
+            "assetClassName": "Shuffler.Assets.ShufflerAssets,Shuffler",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "fieldPattern": {
+                "2": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "3": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "4": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "5": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "6": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "7": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "8": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "9": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "10": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "11": [
+                    [
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "12": [
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "13": [
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "14": [
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "15": [
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        0,
+                        1,
+                        0
+                    ]
+                ],
+                "16": [
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ]
+                ],
+                "17": [
+                    [
+                        0,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        1,
+                        1,
+                        0
+                    ]
+                ],
+                "18": [
+                    [
+                        0,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        0
+                    ]
+                ],
+                "19": [
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        0
+                    ]
+                ],
+                "20": [
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "symbolColor": "Red",
+            "backgroundStartColour": [
+                74,
+                175,
+                191
+            ],
+            "backgroundEndColour": [
+                12,
+                110,
+                111
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1.6,
+            "maxD": 18,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "numCards": 3,
+                    "openCards": 1,
+                    "memorizeTimeout": -1,
+                    "stepPause": 0.7,
+                    "numShuffles": 2
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 3,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 3,
+                    "openCards": 2,
+                    "memorizeTimeout": 6.75000000000002,
+                    "stepPause": 0.685,
+                    "numShuffles": 2
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 4,
+                    "openCards": 2,
+                    "memorizeTimeout": 7.20000000000002,
+                    "stepPause": 0.67,
+                    "numShuffles": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 4,
+                    "openCards": 3,
+                    "memorizeTimeout": 7.65000000000001,
+                    "stepPause": 0.655,
+                    "numShuffles": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 5,
+                    "openCards": 3,
+                    "memorizeTimeout": 8.10000000000001,
+                    "stepPause": 0.64,
+                    "numShuffles": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 5,
+                    "openCards": 4,
+                    "memorizeTimeout": 8.55000000000001,
+                    "stepPause": 0.625000000000001,
+                    "numShuffles": 3
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 5,
+                    "openCards": 4,
+                    "memorizeTimeout": 9.00000000000001,
+                    "stepPause": 0.610000000000001,
+                    "numShuffles": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 6,
+                    "openCards": 4,
+                    "memorizeTimeout": 9.45000000000001,
+                    "stepPause": 0.595000000000001,
+                    "numShuffles": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 6,
+                    "openCards": 5,
+                    "memorizeTimeout": 9.90000000000001,
+                    "stepPause": 0.580000000000001,
+                    "numShuffles": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 7,
+                    "openCards": 5,
+                    "memorizeTimeout": 10.35,
+                    "stepPause": 0.565000000000001,
+                    "numShuffles": 4
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 7,
+                    "openCards": 5,
+                    "memorizeTimeout": 10.8,
+                    "stepPause": 0.550000000000001,
+                    "numShuffles": 5
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 7,
+                    "openCards": 6,
+                    "memorizeTimeout": 11.25,
+                    "stepPause": 0.535000000000001,
+                    "numShuffles": 5
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 8,
+                    "openCards": 6,
+                    "memorizeTimeout": 11.7,
+                    "stepPause": 0.520000000000001,
+                    "numShuffles": 5
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 8,
+                    "openCards": 7,
+                    "memorizeTimeout": 12.15,
+                    "stepPause": 0.505000000000001,
+                    "numShuffles": 5
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 9,
+                    "openCards": 7,
+                    "memorizeTimeout": 12.6,
+                    "stepPause": 0.490000000000001,
+                    "numShuffles": 5
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 9,
+                    "openCards": 7,
+                    "memorizeTimeout": 13.05,
+                    "stepPause": 0.475000000000001,
+                    "numShuffles": 6
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 9,
+                    "openCards": 8,
+                    "memorizeTimeout": 13.5,
+                    "stepPause": 0.460000000000002,
+                    "numShuffles": 6
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 9,
+                    "openCards": 8,
+                    "memorizeTimeout": 13.95,
+                    "stepPause": 0.445000000000002,
+                    "numShuffles": 7
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "numCards": 9,
+                    "openCards": 8,
+                    "memorizeTimeout": 14.4,
+                    "stepPause": 0.430000000000002,
+                    "numShuffles": 8
+                }
+            ]
+        }
+    }
+}

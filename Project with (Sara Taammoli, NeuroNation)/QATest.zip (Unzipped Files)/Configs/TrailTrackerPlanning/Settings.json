@@ -1,0 +1,33 @@
+{
+	"id": "TrailTrackerPlanning",
+	"localization": {
+	},
+	"configs": {
+		"config":"Configs/TrailTrackerPlanning/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "TrailTrackerPlanning",
+			"path": "Bundles/trailtrackerplanning",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "TrailTrackerPlanning",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

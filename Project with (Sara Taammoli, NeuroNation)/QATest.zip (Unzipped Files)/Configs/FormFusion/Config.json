@@ -1,0 +1,199 @@
+{
+    "exercise": {
+        "id": "FormFusion",
+        "settingsClassName": "FormFusion.Model.FormFusionConfiguration,FormFusion",
+        "exerciseConfig": {
+            "modelClassName": "FormFusion.Model.FormFusionModel,FormFusion",
+            "controllerClassName": "FormFusion.Controller.FormFusionController,FormFusion",
+            "viewClassName": "FormFusion.View.FormFusionView,FormFusion",
+            "assetClassName": "FormFusion.Assets.FormFusionAssets,FormFusion",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "backgroundStartColour": [
+                251,
+                206,
+                90
+            ],
+            "backgroundEndColour": [
+                254,
+                172,
+                0
+            ],
+            "backgroundVectorAngle": 225,
+            "enforceTimeout": true,
+            "animationSpeedFactor": 1.5,
+            "maxD": 14,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "memorizeTimeout": 0,
+                    "equationSize": 2,
+                    "minusProbability": 0,
+                    "patternSize": 2,
+                    "warmUpRounds": 0
+                },
+                {
+                    "timeout": 10,
+                    "goodRuns": 2,
+                    "badRuns": 4,
+                    "score": 2,
+                    "memorizeTimeout": 0,
+                    "equationSize": 2,
+                    "minusProbability": 1,
+                    "patternSize": 2,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 9.5,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 3,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0,
+                    "patternSize": 2,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 9,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 4,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 2,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 8.5,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 5,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0,
+                    "patternSize": 3,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 6,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 3,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 7.5,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 7,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 8,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 6.5,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 9,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 10,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 5.5,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 11,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 12,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4.5,
+                    "goodRuns": 6,
+                    "badRuns": 2,
+                    "score": 13,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 7,
+                    "badRuns": 2,
+                    "score": 14,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 15,
+                    "memorizeTimeout": 0,
+                    "equationSize": 3,
+                    "minusProbability": 0.5,
+                    "patternSize": 4,
+                    "warmUpRounds": 3
+                }
+            ]
+        }
+    }
+}

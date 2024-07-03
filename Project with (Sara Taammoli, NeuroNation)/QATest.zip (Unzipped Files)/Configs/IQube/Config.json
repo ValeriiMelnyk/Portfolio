@@ -1,0 +1,257 @@
+{
+    "exercise": {
+        "id": "IQube",
+        "settingsClassName": "",
+        "exerciseConfig": {
+            "modelClassName": "",
+            "controllerClassName": "",
+            "viewClassName": "",
+            "assetClassName": "",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "backgroundStartColour": [
+                9,
+                212,
+                240
+            ],
+            "backgroundEndColour": [
+                151,
+                230,
+                188
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 11,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "cubeSize": 2,
+                    "cubeHoles": "1",
+                    "cubeElevations": "1",
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 23.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 2,
+                    "cubeHoles": 2,
+                    "cubeElevations": 1,
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 21.7,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 2,
+                    "cubeHoles": "3",
+                    "cubeElevations": "1",
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 19.9,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 2,
+                    "cubeHoles": "4",
+                    "cubeElevations": "1",
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 18.1,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 2,
+                    "cubeHoles": "3",
+                    "cubeElevations": "2",
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 16.3,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 2,
+                    "cubeHoles": "3",
+                    "cubeElevations": "3",
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 14.5,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 3,
+                    "cubeHoles": "3",
+                    "cubeElevations": "3",
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 12.7,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 3,
+                    "cubeHoles": "3",
+                    "cubeElevations": 4,
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 10.9,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 3,
+                    "cubeHoles": "4",
+                    "cubeElevations": "4",
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 7
+                },
+                {
+                    "timeout": 9.1,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 3,
+                    "cubeHoles": "4",
+                    "cubeElevations": 4,
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 6
+                },
+                {
+                    "timeout": 7.3,
+                    "goodRuns": 5,
+                    "badRuns": 2,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 3,
+                    "cubeHoles": 4,
+                    "cubeElevations": 6,
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 5
+                },
+                {
+                    "timeout": 5.5,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "cubeSize": 3,
+                    "cubeHoles": "4",
+                    "cubeElevations": 6,
+                    "numAnswers": 3,
+                    "showTargetEdge": true,
+                    "colorHole": [
+                        78,
+                        78,
+                        77
+                    ],
+                    "maxColors": 4
+                }
+            ]
+        }
+    }
+}

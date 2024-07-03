@@ -1,0 +1,35 @@
+{
+	"id": "PathFinderBrain",
+	"localization": {
+		"feedback_correct": "Well done",
+		"feedback_wrong": "Please try again"
+	},
+	"configs": {
+		"config": "Configs/PathFinderBrain/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "PathFinderBrain",
+			"path": "Bundles/pathfinderbrain",
+			"cache": false
+		},
+		{
+			"id": "MinHUD",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "PathFinderBrain",
+			"contexts": [
+				{
+					"id": "MinHUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

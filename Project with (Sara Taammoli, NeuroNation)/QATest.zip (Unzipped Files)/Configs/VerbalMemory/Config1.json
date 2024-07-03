@@ -1,0 +1,53 @@
+{
+    "exercise": {
+        "id": "VerbalMemory",
+        "settingsClassName": "\"\"",
+        "exerciseConfig": {
+            "modelClassName": "\"\"",
+            "controllerClassName": "\"\"",
+            "viewClassName": "\"\"",
+            "assetClassName": "\"\"",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "enforce timeout": true,
+            "backgroundStartColour": [
+                166,
+                42,
+                92
+            ],
+            "backgroundEndColour": [
+                108,
+                49,
+                74
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 1,
+            "minD": 0,
+			"useSameSelectionWords":true,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 8,
+                    "badRuns": 5,
+                    "score": 1,
+                    "memorizeTimeout": 30,
+                    "wordsToRemember": 2,
+                    "wordSelectionAmount": 4,
+                    "numTargetWords": 2,
+                    "numNonTargetWords": 2
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 8,
+                    "badRuns": 5,
+                    "score": 2,
+                    "memorizeTimeout": 30,
+                    "wordsToRemember": 15,
+                    "wordSelectionAmount": 29,
+                    "numTargetWords": 15,
+                    "numNonTargetWords": 14
+                }
+            ]
+        }
+    }
+}

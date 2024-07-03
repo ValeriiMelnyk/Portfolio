@@ -1,0 +1,49 @@
+{
+	"id": "PathFinder",
+	"localization": {
+	},
+	"configs": {
+		"config": "Configs/PathFinder/Config_A.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "PathFinder",
+			"path": "Bundles/pathfinder",
+			"cache": false
+		},
+		{
+			"id": "OnboardingHUD",
+			"path": "Bundles/onboardinghud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "PathFinder",
+			"contexts": [
+				{
+					"id": "OnboardingHUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

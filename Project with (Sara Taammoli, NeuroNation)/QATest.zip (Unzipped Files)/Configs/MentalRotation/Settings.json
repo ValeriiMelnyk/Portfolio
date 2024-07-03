@@ -1,0 +1,37 @@
+{
+	"id": "MentalRotation",
+	"localization": {
+		"description_1": "This image shows an object inside a clear cube. You see the cube from the front.",
+		"description_2": "Now you see the image what it would look like from 5 different perspectives.",
+		"try_again": "Try again",
+		"not_correct": "That was not correct, here is another example.",
+		"correct": "Well done!",
+		"continue": "Continue",
+		"explanation": "You will be shown an image from a specific perspective (i.e. front, behind , below, left etc.) You will then be asked what the image would look like if you were viewing it from a different perspective. Your task is to select the corresponding image.",
+		"initial_perspective": "In the following images you see a rope inside a clear cube.\nBelow you see the cube from the front."
+	},
+	"configs": {
+		"config": "Configs/MentalRotation/Config.json"
+	},
+	"bundles": [{
+			"id": "MentalRotation",
+			"path": "Bundles/mentalrotation",
+			"cache": false
+		},
+		{
+			"id": "MinHUD",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [{
+		"id": "MentalRotation",
+		"contexts": [{
+				"id": "MinHUD"
+			},
+			{
+				"id": "Dialogue"
+			}
+		]
+	}]
+}

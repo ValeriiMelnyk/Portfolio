@@ -1,0 +1,76 @@
+{
+    "exercise": {
+        "id": "Memobox",
+        "settingsClassName": "",
+        "exerciseConfig": {
+            "modelClassName": "",
+            "controllerClassName": "",
+            "viewClassName": "",
+            "assetClassName": "",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "backgroundStartColour": [
+                151,
+                117,
+                225
+            ],
+            "backgroundEndColour": [
+                107,
+                117,
+                206
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1.9,
+            "maxD": 1,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "bins": 2,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "questionInterval": {
+                        "min": 1,
+                        "max": 3
+                    },
+                    "minInitialMemorizeWords": 2,
+                    "numQuestions": {
+                        "min": 3,
+                        "max": 6
+                    },
+                    "numWords": 10
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "bins": 2,
+                    "boxSwap": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "questionInterval": {
+                        "min": 1,
+                        "max": 3
+                    },
+                    "minInitialMemorizeWords": 2,
+                    "numQuestions": {
+                        "min": 3,
+                        "max": 6
+                    },
+                    "numWords": 10
+                }
+            ]
+        }
+    }
+}

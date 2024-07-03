@@ -1,0 +1,76 @@
+{
+  "id": "ColorCraze",
+  "localization": {
+	"ColorCraze_word":"Meaning",
+	"ColorCraze_color":"Color",
+	"ColorCraze_not":"≠",
+	"Circle":"Circle",
+	"Heart":"Heart",
+	"SquareColorCraze":"Square",
+	"Star":"Star",
+	"Triangle":"Triangle",
+	"Cross":"Cross",
+	"Drop":"Drop",
+	"Spiral":"Spiral",
+	"One":"One",
+	"Two":"Two",
+	"Three":"Three",
+	"Four":"Four",
+	"Five":"Five",
+	"Six":"Six",
+	"Seven":"Seven",
+	"Eight":"Eight",
+	"DistinctBlue":"Blue",
+	"DistinctRed":"Red",
+	"DistinctOrange":"Orange",
+	"DistinctBlack":"Black",
+	"DistinctPurple":"Purple",
+	"DistinctTurquoise":"Turquoise",
+	"DistinctPink":"Pink",
+	"DistinctGreen":"Green"
+  },
+  "configs": {
+    "config": "Configs/ColorCraze/Config.json"
+  },
+  "bundles": [
+    {
+      "id": "ExerciseBackground",
+      "path": "Bundles/exercisebackground",
+      "cache": false
+    },
+    {
+      "id": "ColorCraze",
+      "path": "Bundles/colorcraze",
+      "cache": false
+    },
+    {
+      "id": "HUD",
+      "path": "Bundles/hud",
+      "cache": false
+    },
+    {
+      "id": "InputOverlay",
+      "path": "Bundles/inputoverlay",
+      "cache": false
+    }
+  ],
+  "contexts": [
+    {
+      "id": "ExerciseBackground"
+    },
+    {
+      "id": "ColorCraze",
+      "contexts": [
+        {
+          "id": "HUD"
+        },
+        {
+          "id": "Dialogue"
+        },
+        {
+          "id": "InputOverlay"
+        }
+      ]
+    }
+  ]
+}

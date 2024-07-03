@@ -1,0 +1,211 @@
+{
+    "exercise": {
+        "id": "FormFever",
+        "settingsClassName": "FormFever.Model.FormFeverConfiguration,FormFever",
+        "exerciseConfig": {
+            "modelClassName": "FormFever.Model.FormFeverModel,FormFever",
+            "controllerClassName": "FormFever.Controller.FormFeverController,FormFever",
+            "viewClassName": "FormFever.View.FormFeverView,FormFever",
+            "assetClassName": "FormFever.Assets.FormFeverAssets,FormFever",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "matchProbability": 0.35,
+            "noMatchBtn": false,
+            "constStepTime": true,
+            "firstMemorize": {
+                "showMemorizedButton": true,
+                "base": 30,
+                "incPerDiff": 0
+            },
+            "questionFadeOutAfter": [
+                4,
+                6,
+                8,
+                10,
+                13,
+                16,
+                19,
+                22,
+                25,
+                28,
+                31,
+                34
+            ],
+            "enforceTimeout": false,
+            "backgroundStartColour": [
+                68,
+                189,
+                85
+            ],
+            "backgroundEndColour": [
+                53,
+                142,
+                66
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 11,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": 3,
+                    "goodRuns": 8,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 0,
+                    "numCards": 1
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 10,
+                    "badRuns": 4,
+                    "score": 2,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 2
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 15,
+                    "badRuns": 4,
+                    "score": 3,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 3
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 4,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 4
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 5,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 5
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 6,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 6
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 7,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 7
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 8,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 8
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 9,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 9
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 10,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 10
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 20,
+                    "badRuns": 4,
+                    "score": 11,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 11
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 1,
+                    "badRuns": 4,
+                    "score": 12,
+                    "multiplierSteps": [
+                        5,
+                        5,
+                        5
+                    ],
+                    "warmUpRounds": 3,
+                    "numCards": 12
+                }
+            ]
+        }
+    }
+}

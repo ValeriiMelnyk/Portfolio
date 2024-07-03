@@ -1,0 +1,52 @@
+{
+    "exercise": {
+        "id": "MentalRotation",
+        "settingsClassName": "\"\"",
+        "exerciseConfig": {
+            "modelClassName": "\"\"",
+            "controllerClassName": "\"\"",
+            "viewClassName": "\"\"",
+            "assetClassName": "\"\"",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "enforce timeout": true,
+            "backgroundStartColour": [
+                166,
+                42,
+                92
+            ],
+            "backgroundEndColour": [
+                108,
+                49,
+                74
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 1,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": 45,
+                    "goodRuns": 20,
+                    "badRuns": 20,
+                    "score": 1,
+                    "memorizeTimeout": 30,
+                    "cols": 2,
+                    "rows": 2,
+                    "numStimuli": 4,
+                    "usedStimuli": 2
+                },
+                {
+                    "timeout": 30,
+                    "goodRuns": 20,
+                    "badRuns": 20,
+                    "score": 2,
+                    "memorizeTimeout": 30,
+                    "cols": 3,
+                    "rows": 3,
+                    "numStimuli": 13,
+                    "usedStimuli": 9
+                }
+            ]
+        }
+    }
+}

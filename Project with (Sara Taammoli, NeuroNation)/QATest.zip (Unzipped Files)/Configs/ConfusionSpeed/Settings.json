@@ -1,0 +1,64 @@
+{
+	"id": "ConfusionSpeed",
+	"localization": {
+		"question_digit": "Digit {0}?",
+		"question_numeral": "Numeral {0}?",
+		"question_amount": "{0} Items?",
+		"question_even_numeral": "Even Numeral?",
+		"question_odd_numeral": "Odd Numeral?",
+		"question_even_digit": "Even Digit?",
+		"question_odd_digit": "Odd Digit?",
+		"question_left": "Pointing Left?",
+		"question_right": "Pointing Right?",
+		"numeral_1":"One",
+		"numeral_2":"Two",
+		"numeral_3":"Three",
+		"numeral_4":"Four",
+		"numeral_5":"Five",
+		"numeral_6":"Six",
+		"numeral_7":"Seven",
+		"numeral_8":"Eight",
+		"numeral_9":"Nine",
+		"numeral_10":"Ten",
+		"numeral_11":"Eleven",
+		"numeral_12":"Twelve",
+		"numeral_13":"Thirteen",
+		"numeral_14":"Fourteen",
+		"numeral_15":"Fifteen",
+		"numeral_16":"Sixteen",
+		"numeral_17":"Seventeen",
+		"numeral_18":"Eighteen",
+		"numeral_19":"Nineteen",
+		"numeral_20":"Twenty",
+		"button_correct":"Ja",
+		"button_wrong":"Nein"
+	},
+	"configs": {
+		"config":"Configs/ConfusionSpeed/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ConfusionSpeed",
+			"path": "Bundles/confusionspeed",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ConfusionSpeed",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

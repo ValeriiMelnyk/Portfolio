@@ -1,0 +1,36 @@
+{
+	"id": "MemoboxWords",
+	"localization": {
+		"question": "Which box is {0} in?",
+		"none": "None"
+	},
+	"configs": {
+		"config":"Configs/MemoboxWords/Config.json",
+		"levels":"Configs/MemoboxWords/Levels.json"
+	},
+	"bundles": [
+		{
+			"id": "MemoboxWords",
+			"path": "Bundles/memoboxwords",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "MemoboxWords",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

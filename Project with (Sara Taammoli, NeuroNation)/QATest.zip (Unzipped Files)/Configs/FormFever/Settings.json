@@ -1,0 +1,64 @@
+{
+	"id": "FormFever",
+	"localization": {
+		"FormFever_STR_Red":"red",
+		"FormFever_STR_Blue":"blue",
+		"FormFever_STR_Black":"black",
+		"FormFever_STR_Purple":"purple",
+		"FormFever_STR_Orange":"orange",
+		"FormFever_STR_Turquise":"turquise",
+		"FormFever_STR_Round":"round",
+		"FormFever_STR_Angular":"angular",
+		"FormFever_STR_Painted":"filled",
+		"FormFever_STR_Stripes":"dashed",
+		"FormFever_STR_Empty":"empty",
+		"FormFever_STR_Dotted":"dotted",
+		"memorize_text":"Memorize the descriptions.",
+		"question_text":"Does the description match the shape?"
+	},
+	"configs": {
+		"config":"Configs/FormFever/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "FormFever",
+			"path": "Bundles/formfever",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "FormFever",
+			"contexts": [
+				
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

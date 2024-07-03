@@ -1,0 +1,226 @@
+{
+    "exercise": {
+        "id": "TrailTracker",
+        "settingsClassName": "TrailTracker.Model.TrailTrackerConfiguration,TrailTracker",
+        "exerciseConfig": {
+            "modelClassName": "TrailTracker.Model.TrailTrackerModel,TrailTracker",
+            "controllerClassName": "TrailTracker.Controller.TrailTrackerController,TrailTracker",
+            "viewClassName": "TrailTracker.View.TrailTrackerView,TrailTracker",
+            "assetClassName": "TrailTracker.Assets.TrailTrackerAssets,TrailTracker",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "gridRows": 5,
+            "gridColumns": 7,
+            "backgroundStartColour": [
+                160,
+                228,
+                53
+            ],
+            "backgroundEndColour": [
+                136,
+                188,
+                47
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 15,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "zigzag": 0,
+                    "curve": 0,
+                    "arrow": 3,
+                    "uturn": 0
+                },
+                {
+                    "timeout": 19,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 0,
+                    "curve": 0,
+                    "arrow": 4,
+                    "uturn": 0
+                },
+                {
+                    "timeout": 18.5,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 0,
+                    "curve": 1,
+                    "arrow": 5,
+                    "uturn": 0
+                },
+                {
+                    "timeout": 18,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 0,
+                    "curve": 2,
+                    "arrow": 5,
+                    "uturn": 0
+                },
+                {
+                    "timeout": 17.5,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 0,
+                    "curve": 2,
+                    "arrow": 5,
+                    "uturn": 0
+                },
+                {
+                    "timeout": 17,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 1,
+                    "curve": 0,
+                    "arrow": 6,
+                    "uturn": 0
+                },
+                {
+                    "timeout": 16.5,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 1,
+                    "curve": 1,
+                    "arrow": 7,
+                    "uturn": 0
+                },
+                {
+                    "timeout": 16,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 1,
+                    "curve": 1,
+                    "arrow": 8,
+                    "uturn": 1
+                },
+                {
+                    "timeout": 15.5,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 1,
+                    "curve": 1,
+                    "arrow": 9,
+                    "uturn": 1
+                },
+                {
+                    "timeout": 15,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 2,
+                    "curve": 1,
+                    "arrow": 10,
+                    "uturn": 1
+                },
+                {
+                    "timeout": 14.5,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 2,
+                    "curve": 1,
+                    "arrow": 11,
+                    "uturn": 2
+                },
+                {
+                    "timeout": 14,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 23,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 3,
+                    "curve": 1,
+                    "arrow": 11,
+                    "uturn": 2
+                },
+                {
+                    "timeout": 13.5,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 25,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 3,
+                    "curve": 2,
+                    "arrow": 12,
+                    "uturn": 1
+                },
+                {
+                    "timeout": 13,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 27,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 3,
+                    "curve": 2,
+                    "arrow": 12,
+                    "uturn": 3
+                },
+                {
+                    "timeout": 12.5,
+                    "goodRuns": 3,
+                    "badRuns": 2,
+                    "score": 29,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 3,
+                    "curve": 4,
+                    "arrow": 12,
+                    "uturn": 3
+                },
+                {
+                    "timeout": 12,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 31,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "zigzag": 4,
+                    "curve": 4,
+                    "arrow": 12,
+                    "uturn": 4
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "exercise": {
+        "id": "ColorCraze",
+        "settingsClassName": "ColorCraze.Model.ColorCrazeConfiguration,ColorCraze",
+        "exerciseConfig": {
+            "modelClassName": "ColorCraze.Model.ColorCrazeModel,ColorCraze",
+            "controllerClassName": "ColorCraze.Controller.ColorCrazeController,ColorCraze",
+            "viewClassName": "ColorCraze.View.ColorCrazeView,ColorCraze",
+            "assetClassName": "ColorCraze.Assets.ColorCrazeAssets,ColorCraze",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "colors": 8,
+            "maxTiles": 12,
+            "symbolSet": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "backgroundStartColour": [
+                42,
+                245,
+                152
+            ],
+            "backgroundEndColour": [
+                40,
+                210,
+                210
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 11,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 6,
+                    "badRuns": 1,
+                    "score": 1,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 3,
+                    "warmUpRounds": 0
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 2,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 4,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 3,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 5,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4.5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 4,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 6,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4.5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 5,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 7,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 6,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 8,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 4,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 7,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 9,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 8,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 10,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 9,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 11,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 3,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 10,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0,
+                    "cardsAmount": 12,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 3.5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 11,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0.4,
+                    "cardsAmount": 12,
+                    "warmUpRounds": 3
+                },
+                {
+                    "timeout": 2,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 12,
+                    "memorizeTimeout": 0,
+                    "colorProbability": 0.5,
+                    "isNotProbability": 0.4,
+                    "cardsAmount": 12,
+                    "warmUpRounds": 3
+                }
+            ]
+        }
+    }
+}

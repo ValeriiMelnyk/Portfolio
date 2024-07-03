@@ -1,0 +1,49 @@
+{
+	"id": "QuantumLeap",
+	"localization": {
+	},
+	"configs": {
+		"config":"Configs/QuantumLeap/Config_A.json"
+	},
+	"bundles": [
+		{
+			"id": "ExerciseBackground",
+			"path": "Bundles/exercisebackground",
+			"cache": false
+		},
+		{
+			"id": "QuantumLeap",
+			"path": "Bundles/quantumleap",
+			"cache": false
+		},
+		{
+			"id": "OnboardingHUD",
+			"path": "Bundles/onboardinghud",
+			"cache": false
+		},
+		{
+			"id": "InputOverlay",
+			"path": "Bundles/inputoverlay",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "ExerciseBackground"
+		},
+		{
+			"id": "QuantumLeap",
+			"contexts": [
+				{
+					"id": "OnboardingHUD"
+				},
+				{
+					"id": "Dialogue"
+				},
+				{
+					"id": "InputOverlay"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,824 @@
+{
+    "exercise": {
+        "id": "Turnabout",
+        "settingsClassName": "Turnabout.Model.TurnaboutConfiguration,Turnabout",
+        "exerciseConfig": {
+            "modelClassName": "Turnabout.Model.TurnaboutModel,Turnabout",
+            "controllerClassName": "Turnabout.Controller.TurnaboutController,Turnabout",
+            "viewClassName": "Turnabout.View.TurnaboutView,Turnabout",
+            "assetClassName": "Turnabout.Assets.TurnaboutAssets,Turnabout",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "colors": [
+                "LightBlue",
+                "LightGreen",
+                "Blue",
+                "Purple",
+                "Orange",
+                "Green",
+                "Red"
+            ],
+            "backgroundStartColour": [
+                215,
+                65,
+                119
+            ],
+            "backgroundEndColour": [
+                182,
+                53,
+                100
+            ],
+            "backgroundVectorAngle": 225,
+            "animationSpeedFactor": 1.4,
+            "maxD": 33,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 1,
+                    "score": 1,
+                    "memorizeTimeout": -1,
+                    "rotationStepDelay": 0.66,
+                    "rotationSpeed": 1.25,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 1,
+                    "findNumSymbols": 1,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 0
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 4,
+                    "score": 2,
+                    "memorizeTimeout": 9,
+                    "rotationStepDelay": 0.64,
+                    "rotationSpeed": 1.2,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 1,
+                    "findNumSymbols": 1,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 3,
+                    "score": 3,
+                    "memorizeTimeout": 9,
+                    "rotationStepDelay": 0.62,
+                    "rotationSpeed": 1.2,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 2,
+                    "findNumSymbols": 1,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 2,
+                    "badRuns": 3,
+                    "score": 4,
+                    "memorizeTimeout": 9,
+                    "rotationStepDelay": 0.6,
+                    "rotationSpeed": 1.15,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 2,
+                    "findNumSymbols": 1,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 5,
+                    "memorizeTimeout": 10,
+                    "rotationStepDelay": 0.58,
+                    "rotationSpeed": 1.15,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 3,
+                    "findNumSymbols": 2,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 3,
+                    "score": 6,
+                    "memorizeTimeout": 10,
+                    "rotationStepDelay": 0.56,
+                    "rotationSpeed": 1.1,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 3,
+                    "findNumSymbols": 2,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 7,
+                    "memorizeTimeout": 10,
+                    "rotationStepDelay": 0.54,
+                    "rotationSpeed": 1.1,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        0,
+                        1,
+                        0
+                    ],
+                    "symbolsCount": 4,
+                    "findNumSymbols": 2,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 8,
+                    "memorizeTimeout": 11,
+                    "rotationStepDelay": 0.52,
+                    "rotationSpeed": 1.05,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 4,
+                    "findNumSymbols": 2,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 9,
+                    "memorizeTimeout": 11,
+                    "rotationStepDelay": 0.5,
+                    "rotationSpeed": 1.05,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 5,
+                    "findNumSymbols": 2,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 10,
+                    "memorizeTimeout": 11,
+                    "rotationStepDelay": 0.48,
+                    "rotationSpeed": 1,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 5,
+                    "findNumSymbols": 2,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 11,
+                    "memorizeTimeout": 12,
+                    "rotationStepDelay": 0.46,
+                    "rotationSpeed": 1,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        2,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 5,
+                    "findNumSymbols": 3,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 12,
+                    "memorizeTimeout": 12,
+                    "rotationStepDelay": 0.44,
+                    "rotationSpeed": 0.95,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 5,
+                    "findNumSymbols": 3,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 13,
+                    "memorizeTimeout": 12,
+                    "rotationStepDelay": 0.42,
+                    "rotationSpeed": 0.95,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 6,
+                    "findNumSymbols": 3,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 2
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 14,
+                    "memorizeTimeout": 13,
+                    "rotationStepDelay": 0.4,
+                    "rotationSpeed": 0.9,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 6,
+                    "findNumSymbols": 3,
+                    "gridSize": {
+                        "columns": 2,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 15,
+                    "memorizeTimeout": 13,
+                    "rotationStepDelay": 0.38,
+                    "rotationSpeed": 0.9,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 7,
+                    "findNumSymbols": 3,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 16,
+                    "memorizeTimeout": 13,
+                    "rotationStepDelay": 0.36,
+                    "rotationSpeed": 0.85,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 7,
+                    "findNumSymbols": 3,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 17,
+                    "memorizeTimeout": 14,
+                    "rotationStepDelay": 0.34,
+                    "rotationSpeed": 0.85,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 7,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 18,
+                    "memorizeTimeout": 14,
+                    "rotationStepDelay": 0.32,
+                    "rotationSpeed": 0.8,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 7,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 19,
+                    "memorizeTimeout": 14,
+                    "rotationStepDelay": 0.3,
+                    "rotationSpeed": 0.8,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        3,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 8,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 20,
+                    "memorizeTimeout": 15,
+                    "rotationStepDelay": 0.28,
+                    "rotationSpeed": 0.75,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 8,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 21,
+                    "memorizeTimeout": 15,
+                    "rotationStepDelay": 0.26,
+                    "rotationSpeed": 0.75,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 9,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 22,
+                    "memorizeTimeout": 15,
+                    "rotationStepDelay": 0.24,
+                    "rotationSpeed": 0.7,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 9,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 23,
+                    "memorizeTimeout": 16,
+                    "rotationStepDelay": 0.22,
+                    "rotationSpeed": 0.7,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 10,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 24,
+                    "memorizeTimeout": 16,
+                    "rotationStepDelay": 0.2,
+                    "rotationSpeed": 0.65,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 10,
+                    "findNumSymbols": 4,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 25,
+                    "memorizeTimeout": 16,
+                    "rotationStepDelay": 0.18,
+                    "rotationSpeed": 0.65,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        2,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 10,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 26,
+                    "memorizeTimeout": 17,
+                    "rotationStepDelay": 0.16,
+                    "rotationSpeed": 0.6,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 10,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 27,
+                    "memorizeTimeout": 17,
+                    "rotationStepDelay": 0.14,
+                    "rotationSpeed": 0.6,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 11,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 28,
+                    "memorizeTimeout": 17,
+                    "rotationStepDelay": 0.12,
+                    "rotationSpeed": 0.55,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 11,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 29,
+                    "memorizeTimeout": 18,
+                    "rotationStepDelay": 0.1,
+                    "rotationSpeed": 0.55,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 12,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 3
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 30,
+                    "memorizeTimeout": 18,
+                    "rotationStepDelay": 0.08,
+                    "rotationSpeed": 0.5,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 12,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 3,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 31,
+                    "memorizeTimeout": 18,
+                    "rotationStepDelay": 0.06,
+                    "rotationSpeed": 0.5,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 13,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 32,
+                    "memorizeTimeout": 19,
+                    "rotationStepDelay": 0.04,
+                    "rotationSpeed": 0.45,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        2,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 13,
+                    "findNumSymbols": 5,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 33,
+                    "memorizeTimeout": 19,
+                    "rotationStepDelay": 0.02,
+                    "rotationSpeed": 0.45,
+                    "swaps": 0,
+                    "rotationSteps": [
+                        3,
+                        0,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 14,
+                    "findNumSymbols": 6,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                },
+                {
+                    "timeout": -1,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 34,
+                    "memorizeTimeout": 19,
+                    "rotationStepDelay": 0,
+                    "rotationSpeed": 0.4,
+                    "swaps": 1,
+                    "rotationSteps": [
+                        1,
+                        1,
+                        0,
+                        0
+                    ],
+                    "symbolsCount": 14,
+                    "findNumSymbols": 6,
+                    "gridSize": {
+                        "columns": 4,
+                        "rows": 4
+                    },
+                    "warmUpRounds": 1
+                }
+            ]
+        }
+    }
+}

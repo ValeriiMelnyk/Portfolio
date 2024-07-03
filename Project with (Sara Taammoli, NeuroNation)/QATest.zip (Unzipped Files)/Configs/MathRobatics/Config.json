@@ -1,0 +1,498 @@
+{
+    "exercise": {
+        "id": "MathRobatics",
+        "settingsClassName": "MathRobatics.Model.MathRobaticsConfiguration,MathRobatics",
+        "exerciseConfig": {
+            "modelClassName": "MathRobatics.Model.MathRobaticsModel,MathRobatics",
+            "controllerClassName": "MathRobatics.Controller.MathRobaticsController,MathRobatics",
+            "viewClassName": "MathRobatics.View.MathRobaticsView,MathRobatics",
+            "assetClassName": "MathRobatics.Assets.MathRobaticsAssets,MathRobatics",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "resetAllCardsOnError": true,
+            "numberOfCorrections": 3,
+            "backgroundStartColour": [
+                212,
+                160,
+                92
+            ],
+            "backgroundEndColour": [
+                160,
+                107,
+                39
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 28,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "min": 1,
+                    "cards": 1,
+                    "max": 10,
+                    "feedbackDelay": 2.5,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 120
+                    }
+                },
+                {
+                    "timeout": 10,
+                    "goodRuns": 3,
+                    "badRuns": 4,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "min": 1,
+                    "cards": 1,
+                    "max": 15,
+                    "feedbackDelay": 2.475,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 3
+                    }
+                },
+                {
+                    "timeout": 10,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "min": 1,
+                    "cards": 1,
+                    "max": 20,
+                    "feedbackDelay": 2.45,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 1.5
+                    }
+                },
+                {
+                    "timeout": 10,
+                    "goodRuns": 4,
+                    "badRuns": 3,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "min": 1,
+                    "cards": 1,
+                    "max": 25,
+                    "feedbackDelay": 2.425,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 9,
+                    "goodRuns": 5,
+                    "badRuns": 3,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "min": 1,
+                    "cards": 2,
+                    "max": 11,
+                    "feedbackDelay": 2.4,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 120
+                    }
+                },
+                {
+                    "timeout": 9,
+                    "goodRuns": 5,
+                    "badRuns": 3,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "min": 1,
+                    "cards": 2,
+                    "max": 16,
+                    "feedbackDelay": 2.375,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 4
+                    }
+                },
+                {
+                    "timeout": 9,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "min": 1,
+                    "cards": 2,
+                    "max": 21,
+                    "feedbackDelay": 2.35,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 2
+                    }
+                },
+                {
+                    "timeout": 9,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 2,
+                    "min": 1,
+                    "cards": 2,
+                    "max": 26,
+                    "feedbackDelay": 2.325,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "min": 1,
+                    "cards": 3,
+                    "max": 12,
+                    "feedbackDelay": 2.3,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 7.5
+                    }
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "min": 1,
+                    "cards": 3,
+                    "max": 17,
+                    "feedbackDelay": 2.275,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 5
+                    }
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "min": 1,
+                    "cards": 3,
+                    "max": 22,
+                    "feedbackDelay": 2.25000000000001,
+                    "chainHistory": {
+                        "historyVisible": true,
+                        "historyDelay": 2.5
+                    }
+                },
+                {
+                    "timeout": 8,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "min": 1,
+                    "cards": 3,
+                    "max": 27,
+                    "feedbackDelay": 2.22500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 4,
+                    "min": 1,
+                    "cards": 4,
+                    "max": 13,
+                    "feedbackDelay": 2.20000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 4,
+                    "min": 1,
+                    "cards": 4,
+                    "max": 18,
+                    "feedbackDelay": 2.17500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 4,
+                    "min": 1,
+                    "cards": 4,
+                    "max": 23,
+                    "feedbackDelay": 2.15000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 4,
+                    "min": 1,
+                    "cards": 4,
+                    "max": 28,
+                    "feedbackDelay": 2.12500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 5,
+                    "min": 1,
+                    "cards": 5,
+                    "max": 14,
+                    "feedbackDelay": 2.10000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 5,
+                    "min": 1,
+                    "cards": 5,
+                    "max": 19,
+                    "feedbackDelay": 2.07500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 5,
+                    "min": 1,
+                    "cards": 5,
+                    "max": 24,
+                    "feedbackDelay": 2.05000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 20,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 5,
+                    "min": 1,
+                    "cards": 5,
+                    "max": 29,
+                    "feedbackDelay": 2.02500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 15,
+                    "feedbackDelay": 2.00000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 22,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 20,
+                    "feedbackDelay": 1.97500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 23,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 25,
+                    "feedbackDelay": 1.95000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 24,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 30,
+                    "feedbackDelay": 1.92500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 25,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 35,
+                    "feedbackDelay": 1.90000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 26,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 40,
+                    "feedbackDelay": 1.87500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 27,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 45,
+                    "feedbackDelay": 1.85000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 6,
+                    "badRuns": 3,
+                    "score": 28,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 50,
+                    "feedbackDelay": 1.82500000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "score": 29,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 6,
+                    "min": 1,
+                    "cards": 6,
+                    "max": 55,
+                    "feedbackDelay": 1.80000000000001,
+                    "chainHistory": {
+                        "historyVisible": false,
+                        "historyDelay": 1
+                    }
+                }
+            ]
+        }
+    }
+}

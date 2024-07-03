@@ -1,0 +1,37 @@
+{
+	"id": "EscalatorCategories",
+	"localization": {
+		"difficulty_0":"Select the consecutive following letter, after Z the sequence starts again with A.",
+		"difficulty_2":"Do not select the red values, chose the next higher one.",
+		"difficulty_3":"Always select the next highest value, after Z the sequence starts again with A.",
+		"difficulty_6":"Now you need to follow two sequences, always select the next higher letter or number respectively."
+	},
+	"configs": {
+		"config":"Configs/EscalatorCategories/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "EscalatorCategories",
+			"path": "Bundles/escalatorcategories",
+			"cache": false
+		},
+		{
+			"id": "HUD",
+			"path": "Bundles/hud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "EscalatorCategories",
+			"contexts": [
+				{
+					"id": "HUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,180 @@
+{
+    "exercise": {
+        "id": "EscalatorCategpries",
+        "settingsClassName": "\"\"",
+        "exerciseConfig": {
+            "modelClassName": "\"\"",
+            "controllerClassName": "\"\"",
+            "viewClassName": "\"\"",
+            "assetClassName": "\"\"",
+            "terminatorClassNames": "",
+            "tutorial": {},
+            "enforce timeout": true,
+            "backgroundStartColour": [
+                166,
+                42,
+                92
+            ],
+            "backgroundEndColour": [
+                108,
+                49,
+                74
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 14,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 1,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 3,
+                    "category": "A1",
+                    "stimulusMs": -1
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 2,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 3,
+                    "category": "A2",
+                    "stimulusMs": 5000
+                },
+                {
+                    "timeout": 7,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 3,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 3,
+                    "category": "A3",
+                    "stimulusMs": 5000
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 4,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 4,
+                    "category": "B1",
+                    "stimulusMs": 5000
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 5,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 4,
+                    "category": "B2",
+                    "stimulusMs": 5000
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 6,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 4,
+                    "category": "B3",
+                    "stimulusMs": 4400
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 7,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 4,
+                    "category": "C1",
+                    "stimulusMs": 4400
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 8,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 4,
+                    "category": "C2",
+                    "stimulusMs": 4400
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 9,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 4,
+                    "category": "C3",
+                    "stimulusMs": 4000
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 10,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 5,
+                    "category": "D1",
+                    "stimulusMs": 4000
+                },
+                {
+                    "timeout": 6,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 11,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 5,
+                    "category": "D2",
+                    "stimulusMs": 4000
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 12,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 5,
+                    "category": "D3",
+                    "stimulusMs": 3800
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 13,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 5,
+                    "category": "E1",
+                    "stimulusMs": 3600
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 14,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 5,
+                    "category": "E2",
+                    "stimulusMs": 3400
+                },
+                {
+                    "timeout": 5,
+                    "goodRuns": 8,
+                    "badRuns": 3,
+                    "score": 15,
+                    "memorizeTimeout": -1,
+                    "platformsPerRow": 5,
+                    "category": "E3",
+                    "stimulusMs": 3200
+                }
+            ]
+        }
+    }
+}

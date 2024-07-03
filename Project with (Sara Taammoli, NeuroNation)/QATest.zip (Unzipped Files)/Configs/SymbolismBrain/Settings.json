@@ -1,0 +1,33 @@
+{
+	"id": "SymbolismBrain",
+	"localization": {
+	},
+	"configs": {
+		"config": "Configs/SymbolismBrain/Config.json"
+	},
+	"bundles": [
+		{
+			"id": "SymbolismBrain",
+			"path": "Bundles/symbolismbrain",
+			"cache": false
+		},
+		{
+			"id": "MinHUD",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "SymbolismBrain",
+			"contexts": [
+				{
+					"id": "MinHUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

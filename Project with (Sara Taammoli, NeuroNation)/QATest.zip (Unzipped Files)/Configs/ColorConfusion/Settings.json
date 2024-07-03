@@ -1,0 +1,59 @@
+{
+  "id": "ColorConfusion",
+  "localization": {
+	"ColorConfusion_color":"Color",
+	"ColorConfusion_not":"not",
+	"DistinctBlue":"Blue",
+	"DistinctRed":"Red",
+	"DistinctOrange":"Orange",
+	"DistinctBlack":"Black",
+	"DistinctPurple":"Purple",
+	"DistinctTurquoise":"Turquoise",
+	"DistinctPink":"Pink",
+	"DistinctGreen":"Green"
+  },
+  "configs": {
+    "config": "Configs/ColorConfusion/Config.json"
+  },
+  "bundles": [
+    {
+      "id": "ExerciseBackground",
+      "path": "Bundles/exercisebackground",
+      "cache": false
+    },
+    {
+      "id": "ColorConfusion",
+      "path": "Bundles/colorconfusion",
+      "cache": false
+    },
+    {
+      "id": "HUD",
+      "path": "Bundles/hud",
+      "cache": false
+    },
+    {
+      "id": "InputOverlay",
+      "path": "Bundles/inputoverlay",
+      "cache": false
+    }
+  ],
+  "contexts": [
+    {
+      "id": "ExerciseBackground"
+    },
+    {
+      "id": "ColorConfusion",
+      "contexts": [
+        {
+          "id": "HUD"
+        },
+        {
+          "id": "Dialogue"
+        },
+        {
+          "id": "InputOverlay"
+        }
+      ]
+    }
+  ]
+}

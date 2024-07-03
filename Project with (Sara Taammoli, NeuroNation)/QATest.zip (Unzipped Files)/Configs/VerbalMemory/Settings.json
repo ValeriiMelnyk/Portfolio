@@ -1,0 +1,41 @@
+{
+	"id": "VerbalMemory",
+	"localization": {
+		"continue_practice": "Übung forsetzen",
+		"continue_test": "Testung forsetzen",
+		"try_again": "Nochmal versuchen",
+		"not_correct": "Das war leider nicht korrekt, versuchen sie es nochmal.",
+		"next_round_message": "Ausgezeichnet! Im Folgenden wird Ihnen die Wortliste zum wiederholten Male präsentiert. Ihre Aufgabe ist es erneut, sich so viele der angezeigten Worte wie möglich zu merken. Sie werden anschließend gebeten, sich an die gezeigten Wörter zu erinnern.",
+		"practice_try_again": "Das war leider nicht korrekt, versuchen sie es erneut. Ihre Aufgabe ist es, sich so viele der angezeigten Worte wie möglich zu merken. Anschließend werden Sie gebeten, sich an die gezeigten Wörter zu erinnern.",
+		"after_presentation": "Nun werden Ihnen verschiedene Wörter präsentiert. Bitte wählen Sie “JA”, wenn Sie das jeweilige Wort in der eben angezeigten Liste gesehen haben und wiedererkennen. Bitte wählen Sie „NEIN“, wenn das jeweilige Wort Ihrer Meinung nach nicht Teil der eben gezeigten Wortliste gewesen ist."
+	},
+	"configs": {
+		"config": "Configs/VerbalMemory/Config.json",
+		"version": 1
+	},
+	"bundles": [
+		{
+			"id": "VerbalMemory",
+			"path": "Bundles/verbalmemory",
+			"cache": false
+		},
+		{
+			"id": "MinHUD",
+			"path": "Bundles/minhud",
+			"cache": false
+		}
+	],
+	"contexts": [
+		{
+			"id": "VerbalMemory",
+			"contexts": [
+				{
+					"id": "MinHUD"
+				},
+				{
+					"id": "Dialogue"
+				}
+			]
+		}
+	]
+}

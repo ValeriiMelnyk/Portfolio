@@ -1,0 +1,413 @@
+{
+    "exercise": {
+        "id": "MathBlitz",
+        "settingsClassName": "MathBlitz.Model.MathBlitzConfiguration,MathBlitz",
+        "exerciseConfig": {
+            "modelClassName": "MathBlitz.Model.MathBlitzModel,MathBlitz",
+            "controllerClassName": "MathBlitz.Controller.MathBlitzController,MathBlitz",
+            "viewClassName": "MathBlitz.View.MathBlitzView,MathBlitz",
+            "assetClassName": "MathBlitz.Assets.MathBlitzAssets,MathBlitz",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "backgroundStartColour": [
+                77,
+                110,
+                221
+            ],
+            "backgroundEndColour": [
+                52,
+                76,
+                156
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 24,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 4,
+                    "badRuns": 1,
+                    "eqLength": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "max": 10,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 12.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 17,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 11.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 24,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 11.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 29,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 11.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 3,
+                    "max": 15,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 11.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 2,
+                    "multiplierSteps": [
+                        1
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 34,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 11.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 2,
+                    "multiplierSteps": [
+                        1
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 40,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 10.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 20,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 10.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 25,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 10.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 30,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 10.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 2,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 80,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 10.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 2,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 80,
+                    "opToNumberRatio": 0.25,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 9.89999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 35,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 9.69999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 40,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 9.49999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 45,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 9.29999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 50,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 9.09999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 55,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 8.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 60,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 8.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 65,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 8.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 70,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 8.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 71,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 8.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 72,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 7.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 73,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 7.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 74,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                },
+                {
+                    "timeout": 7.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "eqLength": 4,
+                    "multiplierSteps": [
+                        1,
+                        2
+                    ],
+                    "warmUpRounds": 3,
+                    "max": 75,
+                    "opToNumberRatio": 0.33,
+                    "displayedOps": "+-*/",
+                    "unknown": 1,
+                    "allowedOps": "+-*/"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "exercise": {
+        "id": "ColorConfusion",
+        "settingsClassName": "\"\"",
+        "exerciseConfig": {
+            "modelClassName": "\"\"",
+            "controllerClassName": "\"\"",
+            "viewClassName": "\"\"",
+            "assetClassName": "\"\"",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "colors": 8,
+            "maxTiles": 8,
+            "symbolSet": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "backgroundStartColour": [
+                42,
+                245,
+                152
+            ],
+            "backgroundEndColour": [
+                40,
+                210,
+                210
+            ],
+            "backgroundVectorAngle": 225,
+            "maxD": 9,
+            "minD": 0,
+            "levels": [
+                {
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "goodRuns": 2,
+                    "badRuns": 1,
+                    "warmUpRounds": 0,
+                    "timeout": -1,
+                    "cardsAmount": 3,
+                    "variant": 0,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "goodRuns": 4,
+                    "badRuns": 4,
+                    "warmUpRounds": 2,
+                    "timeout": 6.5,
+                    "cardsAmount": 4,
+                    "variant": 0,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "goodRuns": 8,
+                    "badRuns": 4,
+                    "warmUpRounds": 3,
+                    "timeout": 6,
+                    "cardsAmount": 4,
+                    "variant": 1,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "goodRuns": 12,
+                    "badRuns": 3,
+                    "warmUpRounds": 3,
+                    "timeout": 5.5,
+                    "cardsAmount": 5,
+                    "variant": 1,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "goodRuns": 14,
+                    "badRuns": 3,
+                    "warmUpRounds": 3,
+                    "timeout": 5,
+                    "cardsAmount": 5,
+                    "variant": 2,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "goodRuns": 16,
+                    "badRuns": 3,
+                    "warmUpRounds": 3,
+                    "timeout": 4.5,
+                    "cardsAmount": 6,
+                    "variant": 2,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "goodRuns": 18,
+                    "badRuns": 3,
+                    "warmUpRounds": 3,
+                    "timeout": 4,
+                    "cardsAmount": 6,
+                    "variant": 3,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "goodRuns": 20,
+                    "badRuns": 3,
+                    "warmUpRounds": 3,
+                    "timeout": 3.5,
+                    "cardsAmount": 7,
+                    "variant": 3,
+                    "isNotProbability": 0,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "goodRuns": 22,
+                    "badRuns": 3,
+                    "warmUpRounds": 3,
+                    "timeout": 3,
+                    "cardsAmount": 7,
+                    "variant": 3,
+                    "isNotProbability": 0.25,
+                    "memorizeTimeout": 0
+                },
+                {
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "goodRuns": 1,
+                    "badRuns": 3,
+                    "warmUpRounds": 3,
+                    "timeout": 2.5,
+                    "cardsAmount": 8,
+                    "variant": 3,
+                    "isNotProbability": 0.5,
+                    "memorizeTimeout": 0
+                }
+            ]
+        }
+    }
+}

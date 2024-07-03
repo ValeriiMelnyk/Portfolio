@@ -1,0 +1,1312 @@
+{
+    "exercise": {
+        "id": "VerbalVoyager",
+        "settingsClassName": "VerbalVoyager.Model.VerbalVoyagerConfiguration,VerbalVoyager",
+        "exerciseConfig": {
+            "modelClassName": "VerbalVoyager.Model.VerbalVoyagerModel,VerbalVoyager",
+            "controllerClassName": "VerbalVoyager.Controller.VerbalVoyagerController,VerbalVoyager",
+            "viewClassName": "VerbalVoyager.View.VerbalVoyagerView,VerbalVoyager",
+            "assetClassName": "VerbalVoyager.Assets.VerbalVoyagerAssets,VerbalVoyager",
+            "terminatorClassNames": [
+                "ExerciseEngine.Terminator.TimeBasedTerminator,ExerciseEngine",
+                "ExerciseEngine.Terminator.SurvivorTerminator,ExerciseEngine"
+            ],
+            "tutorial": {},
+            "directionsDefinition": [
+                "UP",
+                "DOWN",
+                "LEFT",
+                "RIGHT",
+                "NONE"
+            ],
+            "backgroundStartColour": [
+                109,
+                161,
+                184
+            ],
+            "backgroundEndColour": [
+                66,
+                137,
+                176
+            ],
+            "backgroundVectorAngle": 225,
+            "directionColors": [
+                [
+                    182,
+                    189,
+                    48
+                ],
+                [
+                    233,
+                    138,
+                    112
+                ],
+                [
+                    209,
+                    169,
+                    63
+                ],
+                [
+                    223,
+                    109,
+                    127
+                ]
+            ],
+            "maxD": 22,
+            "minD": 0,
+            "levels": [
+                {
+                    "timeout": -1,
+                    "goodRuns": 3,
+                    "badRuns": 1,
+                    "score": 1,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 0,
+                    "directions": [
+                        "UP",
+                        "DOWN"
+                    ],
+                    "numberOfWords": 2,
+                    "wordLength": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "letterDifference": 3,
+                    "letters": {
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "disturber": {
+                            "min": 0,
+                            "max": 0
+                        }
+                    },
+                    "letterMovement": {},
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 23.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 2,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT"
+                    ],
+                    "numberOfWords": 3,
+                    "wordLength": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "letterDifference": 2,
+                    "letters": {
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "disturber": {
+                            "min": 0,
+                            "max": 0
+                        }
+                    },
+                    "letterMovement": {},
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 22.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 3,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "disturber": {
+                            "min": 0,
+                            "max": 0
+                        }
+                    },
+                    "letterMovement": {},
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 21.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 4,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "letterDifference": 3,
+                    "letters": {
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 21.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 5,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 3,
+                        "max": 4
+                    },
+                    "letterDifference": 2,
+                    "letters": {
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3.3
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 20.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 6,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 4
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3.2
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 19.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 7,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 5
+                    },
+                    "letterDifference": 3,
+                    "letters": {
+                        "memory": {
+                            "min": 0,
+                            "max": 0,
+                            "seconds": -1
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3.1
+                        },
+                        "disturber": {
+                            "min": 0,
+                            "max": 0
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        },
+                        "rotate": {
+                            "minSec": 4,
+                            "maxSec": 5,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 18.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 8,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 5
+                    },
+                    "letterDifference": 2,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 5
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        },
+                        "rotate": {
+                            "minSec": 4,
+                            "maxSec": 5,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 17.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 9,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 5
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.8
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.9
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 4,
+                            "maxSec": 5,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 17.1,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 10,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 5
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.6
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.8
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.75,
+                            "maxSec": 4.75,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 16.3,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 11,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 6
+                    },
+                    "letterDifference": 2,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.4
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.7
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.75,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 15.5,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 12,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 6
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4.2
+                        },
+                        "symbol": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 2.6
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 1
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 14.7,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 13,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 4,
+                        "max": 6
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 4
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.5
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 13.9,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 14,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "letterDifference": 2,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3.8
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.4
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 13.0999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 15,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 1,
+                            "max": 1,
+                            "seconds": 3.6
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.3
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 12.2999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 16,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 6
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 3.4
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.2
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 3,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 11.4999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 17,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 7
+                    },
+                    "letterDifference": 2,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 3.2
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.1
+                        },
+                        "disturber": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 2.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 10.6999999999999,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 18,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 7
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 3
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 2.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 9.89999999999993,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 19,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 7
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.8
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 1.9
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 2.5,
+                            "minLetters": 1,
+                            "maxLetters": 3
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4.5,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 9.09999999999993,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 20,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 7
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.6
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 1.8
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 2.5,
+                            "minLetters": 1,
+                            "maxLetters": 3
+                        },
+                        "rotate": {
+                            "minSec": 3.5,
+                            "maxSec": 4,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 8.29999999999992,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 21,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 7
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.4
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 1.7
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 2.5,
+                            "minLetters": 1,
+                            "maxLetters": 3
+                        },
+                        "rotate": {
+                            "minSec": 3,
+                            "maxSec": 4,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 7.49999999999992,
+                    "goodRuns": 4,
+                    "badRuns": 2,
+                    "score": 22,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 7
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2.2
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 1.6
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 2.5,
+                            "minLetters": 1,
+                            "maxLetters": 3
+                        },
+                        "rotate": {
+                            "minSec": 3,
+                            "maxSec": 4,
+                            "minLetters": 1,
+                            "maxLetters": 2
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                },
+                {
+                    "timeout": 6.69999999999991,
+                    "goodRuns": 1,
+                    "badRuns": 2,
+                    "score": 23,
+                    "multiplierSteps": [],
+                    "warmUpRounds": 1,
+                    "directions": [
+                        "UP",
+                        "DOWN",
+                        "LEFT",
+                        "RIGHT"
+                    ],
+                    "numberOfWords": 4,
+                    "wordLength": {
+                        "min": 5,
+                        "max": 7
+                    },
+                    "letterDifference": 1,
+                    "letters": {
+                        "memory": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 2
+                        },
+                        "symbol": {
+                            "min": 2,
+                            "max": 2,
+                            "seconds": 0
+                        },
+                        "disturber": {
+                            "min": 2,
+                            "max": 2
+                        }
+                    },
+                    "letterMovement": {
+                        "move": {
+                            "minSec": 2,
+                            "maxSec": 2.5,
+                            "minLetters": 1,
+                            "maxLetters": 3
+                        },
+                        "rotate": {
+                            "minSec": 2.5,
+                            "maxSec": 4,
+                            "minLetters": 1,
+                            "maxLetters": 3
+                        }
+                    },
+                    "mechanics": {
+                        "go": {
+                            "minAnswer": 1,
+                            "maxAnswer": 1,
+                            "probability": 1
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
